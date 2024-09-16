@@ -18,9 +18,11 @@
   <div class="markdown-body" :html="content"></div>
 
   <script>
+    // 解析 markdown
     import { Marked } from "https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.2/lib/marked.esm.min.js";
     import { markedHighlight } from "./static/marked/marked-highlight.js";
 
+    // 语法高亮
     import hljs from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/highlight.min.js";
     import bash from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/bash.min.js";
     import xml from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/xml.min.js";
