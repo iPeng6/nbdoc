@@ -61,12 +61,11 @@
       <div class="header">
         <img
           class="logo"
-          src="./dylogo.png"
+          src="./static/dylogo.png"
           alt="抖音：神农尝百码"
           width="88"
           height="88"
         />
-
         <span class="nick-name">神农尝百码</span>
       </div>
       <div class="menu">
@@ -77,25 +76,4 @@
       <slot></slot>
     </div>
   </div>
-  <script>
-    export default {
-      data: {
-        currentPage: "",
-      },
-      proto: {
-        refreshActive() {
-          this.currentPage = this.app.current.src.replace(
-            /.+\/(.+)\.html/,
-            "$1",
-          );
-        },
-      },
-      attached() {
-        this.refreshActive();
-      },
-      routerChange() {
-        this.refreshActive();
-      },
-    };
-  </script>
 </template>
