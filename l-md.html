@@ -1,0 +1,77 @@
+<template component>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown.min.css"
+    integrity="sha512-heNHQxAqmr9b5CZSB7/7NSC96qtb9HCeOKomgLFv9VLkH+B3xLgUtP73i1rM8Gpmfaxb7262LFLJaH/hKXyxyA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link
+    rel="stylesheet"
+    href="./static/highlight/styles/atom-one-light.min.css"
+  />
+
+  <div class="markdown-body" :html="content"></div>
+
+  <script>
+    import { Marked } from "https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.2/lib/marked.esm.min.js";
+    import { markedHighlight } from "./static/marked/marked-highlight.js";
+
+    import hljs from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/highlight.min.js";
+    import bash from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/bash.min.js";
+    import xml from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/xml.min.js";
+    import css from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/css.min.js";
+    import javascript from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/javascript.min.js";
+    import typescript from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/languages/typescript.min.js";
+
+    hljs.registerLanguage("bash", bash);
+    hljs.registerLanguage("xml", xml);
+    hljs.registerLanguage("css", css);
+    hljs.registerLanguage("js", javascript);
+    hljs.registerLanguage("ts", typescript);
+
+    const marked = new Marked(
+      markedHighlight({
+        langPrefix: "hljs language-",
+        highlight(code, lang, info) {
+          const language = hljs.getLanguage(lang) ? lang : "bash";
+          return hljs.highlight(code, { language }).value;
+        },
+      }),
+    );
+    // 自定义 renderer
+    const renderer = new marked.Renderer();
+    renderer.link = ({ text, href, title }) => {
+      return `<a href="./page.html?p=${href}" title="${
+        title || text || ""
+      }" olink>${text}</a>`;
+    };
+
+    marked.use({ renderer });
+
+    export default {
+      attrs: {
+        src: "",
+      },
+      data: {
+        content: "",
+      },
+      proto: {
+        parseMd() {
+          fetch(this.src)
+            .then((res) => res.text())
+            .then((data) => {
+              this.content = marked.parse(data);
+            });
+        },
+      },
+      watch: {
+        src(src) {
+          if (!src) return;
+          this.parseMd();
+        },
+      },
+    };
+  </script>
+</template>

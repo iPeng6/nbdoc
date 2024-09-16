@@ -1,0 +1,78 @@
+<template page>
+  <style>
+    :host {
+      display: block;
+      margin: 0 auto;
+      max-width: 80%;
+      height: 100%;
+    }
+    .header {
+      height: 24px;
+    }
+    .footer {
+      height: 100px;
+    }
+  </style>
+  <div class="header"></div>
+  <l-md :src="page"></l-md>
+  <div class="footer"></div>
+  <script>
+    export default ({ query }) => {
+      return {
+        parent: "./layout.html",
+        data: {
+          page: query?.p || "",
+        },
+        created() {
+          console.log("===created");
+        },
+        ready() {
+          console.log("===ready", { page: this.page, query });
+          // Convert URL query string to object
+          const urlParams = new URLSearchParams(location.search);
+          //   const queryObject = Object.fromEntries(urlParams.entries());
+          const p = urlParams.get("p");
+
+          // Update the page property with the 'p' parameter if it exists
+          if (p && (!query || !query.p)) {
+            this.page = p;
+          }
+          if (query && query.p && p !== query.p) {
+            const url = new URL(location);
+            url.searchParams.set("p", query.p);
+            history.pushState({ page: query.p }, "", url);
+          }
+          this.handlePopstate = this.handlePopstate.bind(this);
+        },
+        proto: {
+          handlePopstate: function (event) {
+            if (event && event.state && event.state.page) {
+              console.log("handlePopstate", event.state.page, this.page);
+              this.page = event.state.page;
+            }
+          },
+        },
+        watch: {
+          // page(page) {
+          //   console.log("watch page", { page: this.page, query });
+          //   if (location.search !== page) {
+          //     const url = new URL(location);
+          //     url.searchParams.set("p", page);
+          //     history.pushState({ page }, "", url);
+          //   }
+          // },
+        },
+        attached() {
+          console.log("===attached", { page: this.page, query });
+
+          // Listen for popstate events
+          window.addEventListener("popstate", this.handlePopstate);
+        },
+        detached() {
+          console.log("===detached", { page: this.page, query });
+          window.removeEventListener("popstate", this.handlePopstate);
+        },
+      };
+    };
+  </script>
+</template>
