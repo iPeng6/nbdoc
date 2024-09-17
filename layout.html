@@ -4,6 +4,7 @@
       display: block;
       width: 100%;
       height: 100%;
+      overflow-y: auto;
     }
 
     .sidebar {
@@ -20,12 +21,9 @@
     }
 
     .main {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 300px;
-      padding-bottom: 300px;
+      padding-top: 50px;
+      padding-left: 300px;
+      padding-bottom: 60px;
     }
 
     .header {
@@ -48,6 +46,7 @@
       font-size: 34px;
       background: linear-gradient(20deg, #fd3939, #ff7f00, #afaf82, #fec2c2);
       background-clip: text;
+      --webkt-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .menu {
@@ -65,14 +64,56 @@
           width="88"
           height="88"
         />
-        <span class="nick-name">神农尝百码</span>
+        <a class="nick-name" href="/">神农尝百码</a>
       </div>
       <div class="menu">
-        <l-md src="./doc/sidebar.md"></l-md>
+        <l-md src="./doc/sidebar.md" :ready="lmdReady"></l-md>
       </div>
     </div>
     <div class="main">
       <slot></slot>
     </div>
   </div>
+  <script>
+    export default {
+      data: {
+        currentPage: "",
+      },
+      proto: {
+        syncActive() {
+          const urlParams = new URLSearchParams(location.search);
+          const p = urlParams.get("p");
+          setTimeout(() => {
+            const lmd = this.shadow.$("l-md").shadow;
+            if (p) {
+              const active = lmd.$(
+                'li:has(> a[href="./page.html?p=' + p + '"])',
+              );
+              if (active) {
+                lmd.all("li").forEach((li) => {
+                  li.classList.remove("active");
+                });
+
+                active.classList.add("active");
+              }
+            }
+          }, 100);
+        },
+        lmdReady(ins) {
+          // inject menu css
+          const link = $('<link rel="stylesheet" href="./static/menu.css">');
+          ins.shadow.unshift(link);
+        },
+      },
+      ready() {
+        this.lmdReady = this.lmdReady.bind(this);
+      },
+      attached() {
+        this.syncActive();
+      },
+      routerChange() {
+        this.syncActive();
+      },
+    };
+  </script>
 </template>

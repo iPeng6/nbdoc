@@ -47,7 +47,10 @@
     );
     // 自定义 renderer
     const renderer = new marked.Renderer();
-    renderer.link = ({ text, href, title }) => {
+    renderer.link = ({ text, href, title, ...rest }) => {
+      if (!href.startsWith("./doc/")) {
+        return `<a href="${href}" title="${title || text || ""}">${text}</a>`;
+      }
       return `<a href="./page.html?p=${href}" title="${
         title || text || ""
       }" olink>${text}</a>`;
@@ -58,6 +61,7 @@
     export default {
       attrs: {
         src: "",
+        ready: () => void 0,
       },
       data: {
         content: "",
@@ -76,6 +80,9 @@
           if (!src) return;
           this.parseMd();
         },
+      },
+      ready() {
+        this.ready(this);
       },
     };
   </script>

@@ -6,49 +6,14 @@
       max-width: 80%;
       height: 100%;
     }
-    .header {
-      height: 24px;
-    }
-    .footer {
-      height: 100px;
-    }
   </style>
-  <div class="header"></div>
   <l-md :src="page"></l-md>
-  <div class="footer"></div>
   <script>
     export default ({ query }) => {
       return {
         parent: "./layout.html",
         data: {
           page: query?.p || "",
-        },
-        ready() {
-          const urlParams = new URLSearchParams(location.search);
-          const p = urlParams.get("p");
-
-          if (p && (!query || !query.p)) {
-            this.page = p;
-          }
-          if (query && query.p && p !== query.p) {
-            const url = new URL(location);
-            url.searchParams.set("p", query.p);
-            history.pushState({ page: query.p }, "", url);
-          }
-          this.handlePopstate = this.handlePopstate.bind(this);
-        },
-        proto: {
-          handlePopstate: function (event) {
-            if (event && event.state && event.state.page) {
-              this.page = event.state.page;
-            }
-          },
-        },
-        attached() {
-          window.addEventListener("popstate", this.handlePopstate);
-        },
-        detached() {
-          window.removeEventListener("popstate", this.handlePopstate);
         },
       };
     };
