@@ -1,4 +1,4 @@
-const cacheVersion = "v4";
+const cacheVersion = "v5";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -14,6 +14,25 @@ const cacheFirst = async ({ request }) => {
   // 首先，尝试从缓存中获取资源
   const responseFromCache = await caches.match(request);
   if (responseFromCache) {
+    // get etag from response
+    const etag = responseFromCache.headers.get("etag");
+
+    if (etag) {
+      // 探测资源是否有更新 通过一个 HEAD 请求
+      fetch(request, {
+        headers: {
+          "If-None-Match": etag,
+        },
+      }).then((responseFromNetwork) => {
+        if (
+          responseFromNetwork.status !== 304 &&
+          etag !== responseFromNetwork.headers.get("etag")
+        ) {
+          // 如果资源有更新，我们需要将新的资源放入缓存
+          putInCache(request, responseFromNetwork.clone());
+        }
+      });
+    }
     return responseFromCache;
   }
 
@@ -48,6 +67,7 @@ const deleteOldCaches = async () => {
 };
 
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   event.waitUntil(
     addResourcesToCache([
       "app-config.mjs",
@@ -64,6 +84,7 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
+  event.waitUntil(self.clients.claim());
   event.waitUntil(deleteOldCaches());
 });
 
