@@ -1,4 +1,4 @@
-const cacheVersion = "v2";
+const cacheVersion = "v4";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -6,35 +6,33 @@ const addResourcesToCache = async (resources) => {
 };
 
 const putInCache = async (request, response) => {
-  const cache = await caches.open("v1");
+  const cache = await caches.open(cacheVersion);
   await cache.put(request, response);
 };
 
-const cacheFirst = async ({ request, preloadResponsePromise }) => {
+const cacheFirst = async ({ request }) => {
   // 首先，尝试从缓存中获取资源
   const responseFromCache = await caches.match(request);
   if (responseFromCache) {
     return responseFromCache;
   }
 
-  // 接下来，尝试使用缓存或预加载的响应
-  const preloadResponse = await preloadResponsePromise;
-  if (preloadResponse) {
-    console.info("using preload response", preloadResponse);
-    putInCache(request, preloadResponse.clone());
-    return preloadResponse;
-  }
-
   // 然后尝试从网络中获取资源
-  const responseFromNetwork = await fetch(request);
-  putInCache(request, responseFromNetwork.clone());
-  return responseFromNetwork;
-};
-
-// 启用导航预加载
-const enableNavigationPreload = async () => {
-  if (self.registration.navigationPreload) {
-    await self.registration.navigationPreload.enable();
+  try {
+    const responseFromNetwork = await fetch(request);
+    // 响应可能会被使用
+    // 我们需要将它的拷贝放入缓存
+    // 然后再返回该响应
+    putInCache(request, responseFromNetwork.clone());
+    return responseFromNetwork;
+  } catch (error) {
+    // 当回落的响应也不可用时，
+    // 我们便无能为力了，但我们始终需要
+    // 返回 Response 对象
+    return new Response("Network error happened", {
+      status: 408,
+      headers: { "Content-Type": "text/plain" },
+    });
   }
 };
 
@@ -52,19 +50,21 @@ const deleteOldCaches = async () => {
 self.addEventListener("install", (event) => {
   event.waitUntil(
     addResourcesToCache([
-      "/",
-      "/index.html",
-      "/l-md.html",
-      "/layout.html",
-      "/page.html",
       "app-config.mjs",
+      "l-md.html",
+      "layout.html",
+      "page.html",
+      "static/dylogo.png",
+      "static/marked/marked-highlight.js",
+      "static/menu.css",
+      "static/ofa.min.js",
+      "static/router.min.js",
     ]),
   );
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(deleteOldCaches());
-  event.waitUntil(enableNavigationPreload());
 });
 
 self.addEventListener("fetch", (event) => {
@@ -78,7 +78,6 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     cacheFirst({
       request: event.request,
-      preloadResponsePromise: event.preloadResponse,
     }),
   );
 });
