@@ -1,5 +1,15 @@
 # Service Worker
 
+## 背景
+
+1. github.io 默认强缓存 600s，太短
+2. 实现缓存优先策略，然后异步更新缓存能大大提高性能（缓存优先等于可以离线使用，如果已经缓存过）
+3. 预缓存框架等必须资源，在 sw 后台 install 时就可以默默填充缓存
+4. 实现预取下一篇内容
+5. 后台索引 markdown 文件到 indexDB 实现全文搜索
+
+## 流程理解
+
 - sw 第一次安装成功后就会激活
 - sw 更新流程
   - install 会先在后台安装
@@ -8,6 +18,8 @@
   - 排队，等待旧版本释放（也就是已经注册的在运行的页面全部关闭）
     - 可以通过使用 [Clients.claim()](https://developer.mozilla.org/zh-CN/docs/Web/API/Clients/claim) 绕过这一点。
   - activate 激活
+
+## 代码实例
 
 ```js
 const cacheVersion = "v1";

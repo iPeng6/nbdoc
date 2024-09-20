@@ -81,10 +81,12 @@
         },
       },
       ready() {
-        this.shadow.emit("mdready", {
-          data: this,
-          composed: true,
-        });
+        setTimeout(() => {
+          this.shadow.emit("mdready", {
+            data: this,
+            composed: true,
+          });
+        }, 0);
       },
     };
   </script>
