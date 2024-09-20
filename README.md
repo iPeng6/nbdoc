@@ -6,7 +6,7 @@
 
 # Todo
 
-- [ ] Service Worker 缓存优化
+- [x] Service Worker 缓存优化
 - [ ] 菜单 折叠优化
 - [ ] 菜单收起
 - [ ] 黑白主题切换

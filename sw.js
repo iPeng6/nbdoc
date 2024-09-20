@@ -1,4 +1,4 @@
-const cacheVersion = "v5";
+const cacheVersion = "v6";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -11,6 +11,13 @@ const putInCache = async (request, response) => {
 };
 
 const cacheFirst = async ({ request }) => {
+  // page.html?p= 忽略查询参数
+  if (request.url.includes("page.html")) {
+    const url = new URL(request.url);
+    url.search = "";
+    request = new Request(url);
+  }
+
   // 首先，尝试从缓存中获取资源
   const responseFromCache = await caches.match(request);
   if (responseFromCache) {
@@ -18,7 +25,7 @@ const cacheFirst = async ({ request }) => {
     const etag = responseFromCache.headers.get("etag");
 
     if (etag) {
-      // 探测资源是否有更新 通过一个 HEAD 请求
+      // 探测资源是否有更新
       fetch(request, {
         headers: {
           "If-None-Match": etag,
@@ -36,7 +43,7 @@ const cacheFirst = async ({ request }) => {
     return responseFromCache;
   }
 
-  // 然后尝试从网络中获取资源
+  // 否则尝试从网络中获取资源
   try {
     const responseFromNetwork = await fetch(request);
     // 响应可能会被使用

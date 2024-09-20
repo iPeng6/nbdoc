@@ -67,7 +67,7 @@
         <a class="nick-name" href="./">神农尝百码</a>
       </div>
       <div class="menu">
-        <l-md src="./doc/sidebar.md" :ready="lmdReady"></l-md>
+        <l-md src="./doc/sidebar.md" on:mdready="mdReady"></l-md>
       </div>
     </div>
     <div class="main">
@@ -77,7 +77,7 @@
   <script>
     export default {
       data: {
-        currentPage: "",
+        currentPage: "test",
       },
       proto: {
         syncActive() {
@@ -99,14 +99,11 @@
             }
           }, 100);
         },
-        lmdReady(ins) {
+        mdReady(event) {
           // inject menu css
           const link = $('<link rel="stylesheet" href="./static/menu.css">');
-          ins.shadow.unshift(link);
+          event.data.shadow.unshift(link);
         },
-      },
-      ready() {
-        this.lmdReady = this.lmdReady.bind(this);
       },
       attached() {
         this.syncActive();

@@ -61,7 +61,6 @@
     export default {
       attrs: {
         src: "",
-        ready: () => void 0,
       },
       data: {
         content: "",
@@ -82,7 +81,10 @@
         },
       },
       ready() {
-        this.ready(this);
+        this.shadow.emit("mdready", {
+          data: this,
+          composed: true,
+        });
       },
     };
   </script>
