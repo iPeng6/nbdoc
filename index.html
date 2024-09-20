@@ -37,7 +37,28 @@
         }
       };
 
-      registerServiceWorker();
+      const unregisterServiceWorker = async () => {
+        if ("serviceWorker" in navigator) {
+          try {
+            const registrations =
+              await navigator.serviceWorker.getRegistrations();
+            for (const registration of registrations) {
+              await registration.unregister();
+            }
+          } catch (error) {
+            console.error(`注销失败：${error}`);
+          }
+        }
+      };
+
+      if (
+        location.host.includes("localhost") ||
+        location.host.includes("127.0.0.1")
+      ) {
+        unregisterServiceWorker();
+      } else {
+        registerServiceWorker();
+      }
     </script>
   </body>
 </html>
