@@ -54,12 +54,15 @@
     // 自定义 renderer
     const renderer = new marked.Renderer();
     renderer.link = ({ text, href, title, ...rest }) => {
-      if (!href.startsWith("./doc/")) {
-        return `<a href="${href}" title="${title || text || ""}">${text}</a>`;
+      if (href.startsWith("./doc/")) {
+        return `<a href="./page.html?p=${href}" title="${
+          title || text || ""
+        }" olink>${text}</a>`;
+      } else {
+        return `<a href="${href}" title="${
+          title || text || ""
+        }" target="_blank" rel="noreferrer">${text}</a>`;
       }
-      return `<a href="./page.html?p=${href}" title="${
-        title || text || ""
-      }" olink>${text}</a>`;
     };
 
     marked.use({ renderer });

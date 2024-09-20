@@ -5,3 +5,4 @@
   - <img src="https://favicon.im/react.dev" alt="react.dev favicon" width="20"/> [React](./doc/React.md)
   - <img src="https://favicon.im/vuejs.org" alt="vuejs.org favicon" width="20"/> [Vue](./doc/Vue.md)
 - [ServiceWorker](./doc/service-worker.md)
+- [在线工具聚合](./doc/tools-cluster.md)
