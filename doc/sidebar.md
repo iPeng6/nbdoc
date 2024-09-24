@@ -4,5 +4,7 @@
 - <img src="https://img.icons8.com/?size=20&id=12160&format=png&color=000000" width="20"/> framework
   - <img src="https://favicon.im/react.dev" alt="react.dev favicon" width="20"/> [React](./doc/React.md)
   - <img src="https://favicon.im/vuejs.org" alt="vuejs.org favicon" width="20"/> [Vue](./doc/Vue.md)
-- [ServiceWorker](./doc/service-worker.md)
+- 性能优化
+  - [ServiceWorker](./doc/service-worker.md)
+  - [纯 CSS 就能实现的性能优化](./doc/perf/css-perf.md)
 - [在线工具聚合](./doc/tools-cluster.md)
