@@ -5,7 +5,7 @@
 ![](./doc/feweekly/Snipaste_2024-09-27_22-36-28.png)
 
 
-<a href="./doc/feweekly/QiReader subscriptions - Fri Sep 27 2024.opml" download>订阅源</a> 导入 RSS 订阅器
+<a href="./doc/feweekly/QiReader subscriptions - Fri Sep 27 2024.opml" download>订阅源下载</a> 导入 RSS 订阅器
 
 -  https://www.qireader.com/
 -  https://feedly.com/

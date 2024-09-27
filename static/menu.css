@@ -1,6 +1,7 @@
 ul {
   list-style-type: none;
   overflow: hidden;
+  padding-inline-start: 2em !important;
 }
 
 li:not(:has(ul)) {

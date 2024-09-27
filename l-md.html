@@ -21,7 +21,7 @@
     }
   </style>
 
-  <div class="markdown-body" :html="content"></div>
+  <div class="markdown-body" :html="content" on:click="onContentClick"></div>
 
   <script>
     // 解析 markdown
@@ -81,6 +81,17 @@
             .then((data) => {
               this.content = marked.parse(data);
             });
+        },
+        onContentClick(event) {
+          if (
+            event.target.tagName === "A" &&
+            event.target.hasAttribute("olink")
+          ) {
+            this.shadow.emit("link-click", {
+              data: event,
+              composed: true,
+            });
+          }
         },
       },
       watch: {

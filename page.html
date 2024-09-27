@@ -6,6 +6,12 @@
       max-width: 80%;
       height: 100%;
     }
+    @media screen and (max-width: 768px) {
+      :host {
+        max-width: 100%;
+        padding: 0 24px;
+      }
+    }
   </style>
   <l-md :src="page"></l-md>
   <script>
