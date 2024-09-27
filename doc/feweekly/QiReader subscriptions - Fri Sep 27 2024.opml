@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Subscriptions of ipeng6 (ipeng6@qq.com) from QiReader [https://www.qireader.com]</title>
+  </head>
+  <body>
+  <outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="http://www.ruanyifeng.com/blog/" />
+  <outline text="Node Weekly" title="Node Weekly" type="rss" xmlUrl="https://cprss.s3.amazonaws.com/nodeweekly.com.xml" htmlUrl="https://nodeweekly.com/" />
+  <outline text="JavaScript Weekly" title="JavaScript Weekly" type="rss" xmlUrl="https://cprss.s3.amazonaws.com/javascriptweekly.com.xml" htmlUrl="https://javascriptweekly.com/" />
+  <outline text="React Status" title="React Status" type="rss" xmlUrl="https://cprss.s3.amazonaws.com/react.statuscode.com.xml" htmlUrl="https://react.statuscode.com/" />
+  <outline text="Web Tools Weekly Archive Feed" title="Web Tools Weekly Archive Feed" type="rss" xmlUrl="https://us5.campaign-archive.com/feed?id=104d6bcc2d&amp;u=ea228d7061e8bbfa8639666ad" htmlUrl="https://us5.campaign-archive.com/feed?u=ea228d7061e8bbfa8639666ad&amp;id=104d6bcc2d" />
+  <outline text="This Week In React - Newsletter" title="This Week In React - Newsletter" type="rss" xmlUrl="https://thisweekinreact.com/newsletter/rss.xml" htmlUrl="https://thisweekinreact.com/newsletter" />
+  <outline text="React Digest" title="React Digest" type="rss" xmlUrl="https://reactdigest.net/digests/feed.rss" htmlUrl="https://newsletter.reactdigest.net/" />
+  <outline text="Frontend Focus" title="Frontend Focus" type="rss" xmlUrl="https://cprss.s3.amazonaws.com/frontendfoc.us.xml" htmlUrl="https://frontendfoc.us/" />
+  <outline text="The Smashing Email Newsletter on Smashing Magazine — For Web Designers And Developers" title="The Smashing Email Newsletter on Smashing Magazine — For Web Designers And Developers" type="rss" xmlUrl="https://www.smashingmagazine.com/the-smashing-newsletter/index.xml" htmlUrl="https://www.smashingmagazine.com/the-smashing-newsletter/" />
+  <outline text="bytes.dev" title="bytes.dev" type="rss" xmlUrl="https://kill-the-newsletter.com/feeds/t59kuewkmrffe1jw1q3q.xml"  />
+  <outline text="CSS-Tricks Newsletters RSS Feed" title="CSS-Tricks Newsletters RSS Feed" type="rss" xmlUrl="https://css-tricks.com/rss-for-newsletters/" htmlUrl="https://css-tricks.com" />
+  <outline text="joshwcomeau.com" title="joshwcomeau.com" type="rss" xmlUrl="https://kill-the-newsletter.com/feeds/wb2z4frw4xbuc1r9ccff.xml"  />
+  <outline text="信息差——独立开发者出海周刊" title="信息差——独立开发者出海周刊" type="rss" xmlUrl="https://gapis.money/rss.xml" htmlUrl="https://gapis.money" />
+  </body>
+</opml>
