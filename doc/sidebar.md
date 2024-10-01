@@ -10,4 +10,6 @@
 - 性能优化
   - [ServiceWorker](./doc/service-worker.md)
   - [纯 CSS 就能实现的性能优化](./doc/perf/css-perf.md)
+- 调试
+  - [真机调试](./doc/real-device-debug.md)
 

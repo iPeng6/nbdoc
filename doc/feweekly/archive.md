@@ -1,5 +1,7 @@
 # 往期归档
 
+## 2024年10月02日
+
 ## 2024年09月29日
 
 - [Web Inspector](https://apps.apple.com/sg/app/web-inspector/id1584825745?platform=iphone)
@@ -43,3 +45,25 @@
 - [web-chaos-graph](https://github.com/yoavbls/web-chaos-graph)
 - [Announcing TypedSQL: Make your raw SQL queries type-safe with Prisma ORM](https://www.prisma.io/blog/announcing-typedsql-make-your-raw-sql-queries-type-safe-with-prisma-orm)
 - [keepingyouawake](https://keepingyouawake.app/)
+
+## 2024年09月06日
+
+- [vue3.5](https://blog.vuejs.org/posts/vue-3-5)
+  - [react-hydration-on-demand](https://github.com/valcol/react-hydration-on-demand)
+- [Generate a PDF in React](https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript)
+- [React is (becoming) a Full-Stack Framework](https://www.robinwieruch.de/react-full-stack-framework/)
+- [T3 Stack](https://create.t3.gg/)
+
+
+## 2024年08月16日
+
+- [0.1+0.2](https://0.30000000000000004.com/) 
+- [location = location](https://www.phpied.com/files/location-location/location-location.html) 
+- https://roadmap.sh/ 
+- [Announcing Official Puppeteer Support for Firefox](https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/) 
+- 🎬 [WebDriver BiDi: Future of browser automation](https://www.youtube.com/watch?v=6oXic6dcn9w) 
+
+## 2024年07月26日
+
+- [web-check](https://web-check.xyz/)
+- [InfiniteGrid](https://naver.github.io/egjs-infinitegrid/)
