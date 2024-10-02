@@ -2,6 +2,10 @@
 
 ## 2024年10月02日
 
+- [前端周刊](https://godcode.win/#/page.html?p=./doc/feweekly/feweekly.md)
+   - [Qi Reader](https://www.qireader.com/)
+   - [Kill the Newsletter!](https://kill-the-newsletter.com/)
+
 ## 2024年09月29日
 
 - [Web Inspector](https://apps.apple.com/sg/app/web-inspector/id1584825745?platform=iphone)
