@@ -59,7 +59,7 @@
     // 自定义 renderer
     const renderer = new marked.Renderer();
     renderer.link = ({ text, href, title, ...rest }) => {
-      if (href.startsWith("./doc/")) {
+      if (href.startsWith("./doc/") || href.startsWith("doc/")) {
         return `<a href="./page.html?p=${href}" title="${
           title || text || ""
         }" olink>${text}</a>`;

@@ -2,10 +2,10 @@
 
 ## RSS
 
-![](./doc/feweekly/fe-rss.png)
+![](doc/feweekly/fe-rss.png)
 
 
-<a href="./doc/feweekly/fe-rss.opml" download>订阅源下载</a> 导入 RSS 订阅器
+<a href="doc/feweekly/fe-rss.opml" download>订阅源下载</a> 导入 RSS 订阅器
 
 -  https://www.qireader.com/
 
@@ -19,7 +19,7 @@
 
 ## 油管
 
-![](./doc/feweekly/youtuber.png)
+![](doc/feweekly/youtuber.png)
 
 ## 语雀
 
