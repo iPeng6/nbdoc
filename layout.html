@@ -129,7 +129,7 @@
       <div class="header">
         <img
           class="logo"
-          src="./static/dylogo.png"
+          src="static/dylogo.png"
           alt="抖音：神农尝百码"
           width="88"
           height="88"
@@ -165,7 +165,7 @@
           setTimeout(() => {
             const lmd = this.shadow.$("l-md").shadow;
 
-            const active = lmd.$('li:has(> a[href="./page.html?p=' + p + '"])');
+            const active = lmd.$('li:has(> a[href="page.html?p=' + p + '"])');
             if (active) {
               lmd.all("li").forEach((li) => {
                 li.classList.remove("active");
@@ -177,7 +177,7 @@
         },
         mdReady(event) {
           // inject menu css
-          const link = $('<link rel="stylesheet" href="./static/menu.css">');
+          const link = $('<link rel="stylesheet" href="static/menu.css">');
           event.data.shadow.unshift(link);
         },
         toogleSidebar() {

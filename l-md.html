@@ -31,7 +31,7 @@
   <script>
     // 解析 markdown
     import { Marked } from "https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.2/lib/marked.esm.min.js";
-    import { markedHighlight } from "./static/marked/marked-highlight.js";
+    import { markedHighlight } from "static/marked/marked-highlight.js";
 
     // 语法高亮
     import hljs from "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/es/highlight.min.js";
@@ -60,7 +60,7 @@
     const renderer = new marked.Renderer();
     renderer.link = ({ text, href, title, ...rest }) => {
       if (href.startsWith("./doc/") || href.startsWith("doc/")) {
-        return `<a href="./page.html?p=${href}" title="${
+        return `<a href="page.html?p=${href}" title="${
           title || text || ""
         }" olink>${text}</a>`;
       } else {

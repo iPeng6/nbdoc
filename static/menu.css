@@ -14,8 +14,17 @@ li:has(ul) > img {
   margin-top: -2px;
 }
 
+li a {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 li:not(.active) > a {
   color: var(--fgColor-default);
+}
+
+li:not(.active) > a:hover {
+  color: orange;
+  transform: translateX(0.25em);
 }
 
 li.active > a {
