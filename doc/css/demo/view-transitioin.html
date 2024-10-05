@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Transition API</title>
+    <style>
+      html {
+        color-scheme: light dark;
+      }
+
+      [data-theme="light"] {
+        color-scheme: light only;
+      }
+      [data-theme="dark"] {
+        color-scheme: dark only;
+        --from: 0 0 100% 0;
+      }
+
+      ::view-transition-old(root) {
+        animation: none;
+      }
+      ::view-transition-new(root) {
+        animation: reveal 0.3s;
+        clip-path: inset(0 0 0 0);
+      }
+
+      @keyframes reveal {
+        from {
+          clip-path: inset(var(--from, 100% 0 0 0));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">theme</button>
+    <p>test</p>
+    <script>
+      const btn = document.getElementById("btn");
+      btn.addEventListener("click", () => {
+        document.startViewTransition(() => {
+          const isDark = document.documentElement.dataset.theme === "dark";
+          document.documentElement.dataset.theme = isDark ? "light" : "dark";
+        });
+      });
+    </script>
+  </body>
+</html>

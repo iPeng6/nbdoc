@@ -1,5 +1,17 @@
 # 往期归档
 
+## 2024年10月05日
+
+- [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+   - [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+- [Language Rankings: June 2024](https://redmonk.com/sogrady/2024/09/12/language-rankings-6-24/)
+- [icegl-three-vue-tres](https://gitee.com/ice-gl/icegl-three-vue-tres)
+   - [react-three-fiber](https://github.com/pmndrs/react-three-fiber)
+- [WebKit Features in Safari 18.0](https://webkit.org/blog/15865/webkit-features-in-safari-18-0/)
+   - https://cdpn.io/pen/debug/BaggYwa
+   - https://codepen.io/jh3y/pen/BaggYwa
+- [Why we switched from Cypress to Playwright](https://www.bigbinary.com/blog/why-we-switched-from-cypress-to-playwright)
+
 ## 2024年10月02日
 
 - [前端周刊](https://godcode.win/#/page.html?p=./doc/feweekly/feweekly.md)

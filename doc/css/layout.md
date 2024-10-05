@@ -2,7 +2,7 @@
 
 CSS（层叠样式表）是一种用于描述 HTML 或 XML 文档外观的样式表语言。CSS 布局是指如何在网页上排列和显示元素。CSS 提供了多种布局方式，其中“块布局”（Block Layout）是最基本和常见的一种。
 
-### 块布局（Block Layout）
+## 块布局（Block Layout）
 
 块布局是指元素按照块级元素的特性进行排列。块级元素（如`<div>`、`<p>`、`<h1>`等）会占据其父容器的整个宽度，并且每个块级元素会从新的一行开始。块布局的特点是：
 
@@ -10,7 +10,7 @@ CSS（层叠样式表）是一种用于描述 HTML 或 XML 文档外观的样式
 - 宽度默认是父容器的 100%。
 - 可以设置宽度、高度、内边距（padding）、外边距（margin）等属性。
 
-### 其他布局方式
+## 其他布局方式
 
 除了块布局，CSS 还提供了其他几种常见的布局方式：
 
@@ -50,3 +50,8 @@ CSS（层叠样式表）是一种用于描述 HTML 或 XML 文档外观的样式
    - 这种布局方式适用于需要表格样式的内容。
 
 每种布局方式都有其适用的场景和特点，选择合适的布局方式可以使网页设计更加灵活和高效。
+
+## 教程
+
+- [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
+- [An Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
