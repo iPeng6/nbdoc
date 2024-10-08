@@ -22,4 +22,4 @@
 
 - SSR SEO 呢？
 
-ofa 有官方实现，但是本系统不打算实现，定位为个人文档系统，SEO 现在也只是喂给 AI 的口粮罢了
+ofa 有官方实现，但是本系统不打算实现，定位为个人文档系统，SEO 现在也只是喂给 AI 的口粮罢了，如果你也想设置 robots 禁用AI爬取，可以参考 https://github.com/ai-robots-txt/ai.robots.txt
