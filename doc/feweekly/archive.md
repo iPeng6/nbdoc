@@ -1,5 +1,12 @@
 # 往期归档
 
+## 2024年10月08日
+
+- [How I Built My Blog - 2024 “App Router” Edition](https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/)
+- [Announcing VoidZero - Next Generation Toolchain for JavaScript](https://voidzero.dev/posts/announcing-voidzero-inc)
+- [Tauri 2.0 Stable Release](https://v2.tauri.app/blog/tauri-20/)
+- [Oracle, it’s time to free JavaScript.](https://javascript.tm/)
+
 ## 2024年10月05日
 
 - [An Interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
