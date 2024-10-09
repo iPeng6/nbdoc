@@ -1,4 +1,4 @@
-const cacheVersion = "v1010";
+const cacheVersion = "v101002";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -25,6 +25,7 @@ const cacheFirst = async ({ request }) => {
   if (responseFromCache) {
     // get etag from response
     const etag = responseFromCache.headers.get("etag");
+    const lastModified = responseFromCache.headers.get("last-modified");
 
     if (etag) {
       // 探测资源是否有更新
@@ -41,7 +42,28 @@ const cacheFirst = async ({ request }) => {
           putInCache(request, responseFromNetwork.clone());
         }
       });
+    } else if (lastModified) {
+      // 探测资源是否有更新
+      fetch(request, {
+        headers: {
+          "If-Modified-Since": lastModified,
+        },
+      }).then((responseFromNetwork) => {
+        if (
+          responseFromNetwork.status !== 304 &&
+          lastModified !== responseFromNetwork.headers.get("last-modified")
+        ) {
+          // 如果资源有更新，我们需要将新的资源放入缓存
+          putInCache(request, responseFromNetwork.clone());
+        }
+      });
+    } else {
+      // update cache anymore
+      fetch(request).then((responseFromNetwork) => {
+        putInCache(request, responseFromNetwork.clone());
+      });
     }
+
     return responseFromCache;
   }
 
