@@ -23,42 +23,26 @@ const cacheFirst = async ({ request }) => {
   // 首先，尝试从缓存中获取资源
   const responseFromCache = await caches.match(request);
   if (responseFromCache) {
-    // get etag from response
-    const etag = responseFromCache.headers.get("etag");
-    const lastModified = responseFromCache.headers.get("last-modified");
+    const expires = responseFromCache.headers.get("expires");
 
-    if (etag) {
-      // 探测资源是否有更新
-      fetch(request, {
-        headers: {
-          "If-None-Match": etag,
-        },
-      }).then((responseFromNetwork) => {
-        if (
-          responseFromNetwork.status !== 304 &&
-          etag !== responseFromNetwork.headers.get("etag")
-        ) {
-          // 如果资源有更新，我们需要将新的资源放入缓存
-          putInCache(request, responseFromNetwork.clone());
-        }
-      });
-    } else if (lastModified) {
-      // 探测资源是否有更新
-      fetch(request, {
-        headers: {
-          "If-Modified-Since": lastModified,
-        },
-      }).then((responseFromNetwork) => {
-        if (
-          responseFromNetwork.status !== 304 &&
-          lastModified !== responseFromNetwork.headers.get("last-modified")
-        ) {
-          // 如果资源有更新，我们需要将新的资源放入缓存
-          putInCache(request, responseFromNetwork.clone());
-        }
-      });
+    let isExpired = true;
+
+    if (expires) {
+      isExpired = new Date(expires) < new Date();
     } else {
-      // update cache anymore
+      const lastModified = responseFromCache.headers.get("last-modified");
+      const cacheControl = responseFromCache.headers.get("cache-control");
+      if (lastModified && cacheControl) {
+        const maxAge = cacheControl.match(/max-age=(\d+)/);
+        if (maxAge && maxAge[1] > 0) {
+          isExpired =
+            new Date().getTime() - new Date(lastModified).getTime() >
+            maxAge[1] * 1000;
+        }
+      }
+    }
+
+    if (isExpired) {
       fetch(request).then((responseFromNetwork) => {
         putInCache(request, responseFromNetwork.clone());
       });
