@@ -1,4 +1,4 @@
-const cacheVersion = "v6";
+const cacheVersion = "v1010";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -6,8 +6,10 @@ const addResourcesToCache = async (resources) => {
 };
 
 const putInCache = async (request, response) => {
-  const cache = await caches.open(cacheVersion);
-  await cache.put(request, response);
+  if (request.method === "GET") {
+    const cache = await caches.open(cacheVersion);
+    await cache.put(request, response);
+  }
 };
 
 const cacheFirst = async ({ request }) => {
