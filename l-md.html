@@ -9,8 +9,8 @@
 
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/base16/one-light.min.css"
-    integrity="sha512-zloxdxUQX4K4/brncD3nSsn/tELiwB0LjK/n8KeKO+2TYUC7jlunFNrBnDt/ORN3qcrt4ki5lJEel0E/zMSrFQ=="
+    id="theme-stylesheet"
+    href=""
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
@@ -78,13 +78,33 @@
       },
       data: {
         content: "",
+        controller: new AbortController(),
       },
       proto: {
+        loadCodeTheme() {
+          const themeStylesheet = this.shadow.$("#theme-stylesheet");
+
+          if (!themeStylesheet) return;
+
+          // 检查用户的系统主题偏好
+          const prefersDarkScheme = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          );
+
+          // 根据用户的偏好加载不同的 CSS 文件
+          themeStylesheet.ele.href = `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/base16/${
+            prefersDarkScheme.matches ? "onedark" : "one-light"
+          }.min.css`;
+        },
         parseMd() {
           fetch(this.src)
             .then((res) => res.text())
             .then((data) => {
               this.content = marked.parse(data);
+              this.shadow.emit("mdparsed", {
+                data: this,
+                composed: true,
+              });
             });
         },
         onContentClick(event) {
@@ -106,12 +126,22 @@
         },
       },
       ready() {
+        this.loadCodeTheme();
         setTimeout(() => {
           this.shadow.emit("mdready", {
             data: this,
             composed: true,
           });
         }, 0);
+        // 监听主题变化
+        window
+          .matchMedia("(prefers-color-scheme: dark)")
+          .addEventListener("change", this.loadCodeTheme.bind(this), {
+            signal: this.controller.signal,
+          });
+      },
+      detached() {
+        this.controller.abort();
       },
     };
   </script>

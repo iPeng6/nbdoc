@@ -9,7 +9,9 @@
       --border-color: #d0d7deb3;
       --c-gray: #333;
     }
-
+    ::-webkit-scrollbar {
+      display: none;
+    }
     .sidebar {
       position: fixed;
       top: 0;
@@ -19,6 +21,7 @@
       padding: 0 16px;
       background-color: var(--bg-color);
       border-right: 1px solid var(--border-color);
+      box-shadow: 2px 0 4px var(--border-color);
       overflow-y: auto;
       z-index: 20;
       transition: transform 0.3s;
@@ -149,6 +152,7 @@
         <l-md
           src="doc/sidebar.md"
           one:mdready="mdReady"
+          one:mdparsed="syncActive"
           on:link-click="toogleSidebar"
         ></l-md>
       </div>
@@ -173,7 +177,7 @@
 
           setTimeout(() => {
             const lmd = this.shadow.$("l-md").shadow;
-
+            if (!lmd) return;
             const active = lmd.$('li:has(> a[href="page.html?p=' + p + '"])');
             if (active) {
               lmd.all("li").forEach((li) => {
@@ -182,7 +186,7 @@
 
               active.classList.add("active");
             }
-          }, 100);
+          }, 10);
         },
         mdReady(event) {
           // inject menu css
@@ -192,9 +196,6 @@
         toogleSidebar() {
           this.open = !this.open;
         },
-      },
-      attached() {
-        this.syncActive();
       },
       routerChange() {
         this.syncActive();
