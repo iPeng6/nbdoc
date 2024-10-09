@@ -78,7 +78,6 @@
       },
       data: {
         content: "",
-        controller: new AbortController(),
       },
       proto: {
         loadCodeTheme() {
@@ -133,15 +132,6 @@
             composed: true,
           });
         }, 0);
-        // 监听主题变化
-        window
-          .matchMedia("(prefers-color-scheme: dark)")
-          .addEventListener("change", this.loadCodeTheme.bind(this), {
-            signal: this.controller.signal,
-          });
-      },
-      detached() {
-        this.controller.abort();
       },
     };
   </script>
