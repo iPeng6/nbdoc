@@ -1,5 +1,17 @@
 # 往期归档
 
+## 2024年10月20日
+
+- [Why WordPress founder Matt Mullenweg has gone ‘nuclear’ against tech investing giant Silver Lake](https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html)
+   - [Automattic is doing open source dirty](https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128)
+   - [半生心血贡献给开源，WordPress 之父分叉 20 万行代码报复吸血企业，DHH：别发疯](https://mp.weixin.qq.com/s/z6vtmZAqvDYbVKyKYAgBKA)
+- [开源许可证选择器](https://open-source-license-chooser.toolsnav.top/zh/)
+- [React Folder Structure in 5 Steps 2024](https://www.robinwieruch.de/react-folder-structure/)
+   - https://x.com/rwieruch/status/1836434009041035635
+- https://imagehover.io/
+- https://uiball.com/ldrs/
+- https://arturbien.github.io/balloons-js/·
+
 ## 2024年10月13日
 
 - [Announcing Deno 2](https://deno.com/blog/v2.0)
