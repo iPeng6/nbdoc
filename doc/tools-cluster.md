@@ -4,6 +4,7 @@
 - <img src="https://favicon.im/it-tools.tech" alt="it-tools.tech favicon" width="20" style="vertical-align: sub;" /> [it-tools](https://it-tools.tech/) 为**开发人员**和 IT 工作者汇集了有用的工具。
 - <img src="https://favicon.im/tiny-helpers.dev" alt="tiny-helpers.dev favicon" width="20" style="vertical-align: sub;" /> [Tiny Helpers](https://tiny-helpers.dev/) 一组免费的单一用途在线工具，供**web 开发者**使用.
 - <img src="https://favicon.im/www.tboxn.com" alt="www.tboxn.com favicon" width="20" style="vertical-align: sub;" /> [tboxn](https://www.tboxn.com/) Tbox 导航 只为你收录优质的工具，每一种工具只收录 2-3 个，我们帮你做好选择
+- [CoderUtil](https://www.coderutil.com/) 程序员盒子 (coderutil)-最适合初学者的编程工具资源社区，丰富的在线工具网址大全、高质量的技术博文分享、火爆的程序员交友讨论社区、完全免费开发API接口、海量免费程序员学习资料电子书下载网站。
 
 ## AI 聚合
 - <img src="https://favicon.im/www.toolai.io" alt="www.toolai.io favicon" width="20" style="vertical-align: sub;" /> [toolai](https://www.toolai.io/) 发现最佳人工智能网站, `6900+` 人工智能平台和工具，每日更新
