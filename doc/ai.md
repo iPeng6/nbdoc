@@ -2,8 +2,9 @@
 
 ## ChatGPT 平替
 
-- [ChatKit](https://chatkit.app/) 类似 ChatGPT，支持多种模型，需要自己填写密钥，也可以升级高级版充值使用 OpenAI 模型，按需消费实际比 ChatGPT 订阅式要便宜的很多
+- [ChatKit](https://chatkit.app/) 类似 ChatGPT，支持多种模型，需要自己填写密钥，也可以升级高级版充值使用 OpenAI 模型，按需消费实际比 ChatGPT 订阅式要便宜的很多，关键国内不用科学上网
 - [Aichatru](https://aichatru.ru/) 免费在线AI聊天, 一站式体验GPT4o Mini、GPT-4o、Claude 3.5 Sonnet和Claude Opus，免费在线使用，无需注册
+- [lmarena](https://lmarena.ai/) Chatbot Arena (lmarena.ai) 是一个开源平台，用于通过人类偏好评估人工智能，由加州大学伯克利分校 SkyLab 和 LMSYS 的研究人员开发。
 - [Google Gemini](https://gemini.google.com/) 谷歌版 ChatGPT, 效果一般主要是模型数据更加实时一点
 
 ## AI 搜索
@@ -21,12 +22,12 @@
 
 ## 代码助手
 
-- [Cursor](https://www.cursor.com/) 两周试用， 2000 自动补全，50个慢速高级请求，Pro 20刀每月
+- [Cursor](https://www.cursor.com/) 两周试用， 2000次 自动补全，50个慢速高级请求，Pro 20刀每月
 - [Github Copilot](https://github.com/features/copilot) 10刀每月
 - [Tabnine](https://www.tabnine.com/) 12刀每月 免费试用90天
 - [codeium](https://codeium.com/) 个人免费, Pro 10刀每月
   
-国产
+**国产**
 
 - [CodeGeeX](https://codegeex.cn/) - 智谱 AI ｜ 个人免费
 - [通义灵码](https://tongyi.aliyun.com/lingma/) - 阿里 ｜ 个人免费

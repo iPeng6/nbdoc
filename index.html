@@ -13,13 +13,66 @@
       html,
       body {
         color-scheme: light dark;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+      @keyframes fade {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* 回到顶部按钮的样式 */
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #000;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-decoration: none;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        opacity: 0;
+        box-shadow: 0 0 4px #000;
+        /* 设置动画 */
+        animation: fade auto linear;
+
+        /* 关键：设置动画时间轴为滚动进度 */
+        animation-timeline: view();
+
+        /* 设置动画范围：从视口50%开始到100% */
+        animation-range: 50% 100%;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      /* 可选：悬停效果 */
+      .back-to-top:hover {
+        background-color: #333;
+      }
+      @media (prefers-color-scheme: dark) {
+        .back-to-top {
+          background-color: #30363db3;
+          color: #ccc;
+        }
       }
     </style>
   </head>
   <body>
-    <o-router fix-body>
+    <o-router>
       <o-app src="app-config.mjs"></o-app>
     </o-router>
+    <!-- 回到顶部按钮 -->
+    <div class="back-to-top" onclick="window.scrollTo(0,0)">↑</div>
     <script>
       const registerServiceWorker = async () => {
         if ("serviceWorker" in navigator) {

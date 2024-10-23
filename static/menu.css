@@ -29,10 +29,7 @@ li:not(.active) > a:hover {
 
 li.active > a {
   font-weight: bold;
-  background: linear-gradient(271deg, #5800ff, #f6441a);
-  background-clip: text;
-  --webkt-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #c78358;
 }
 
 li img {
