@@ -37,6 +37,11 @@
 - [豆包MarsCode](https://www.marscode.com/) - 字节 ｜ 个人免费, 新户专属链接：https://www.marscode.cn/events/s/iSfHmQq7/
 - [CodeArts Snap](https://www.huaweicloud.com/product/codeartside/snap.html) - 华为 ｜ ¥300.00/人/月
 
+## 在线全自动写代码
+
+- [v0.dev](https://v0.dev/)
+- [bolt.new](https://bolt.new/)
+
 ## AI 命令行终端
 
 - [warp](https://www.warp.dev/)
