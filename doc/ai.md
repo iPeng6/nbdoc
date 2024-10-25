@@ -27,6 +27,7 @@
 - [Github Copilot](https://github.com/features/copilot) 10刀每月
 - [Tabnine](https://www.tabnine.com/) 12刀每月 免费试用90天
 - [codeium](https://codeium.com/) 个人免费, Pro 10刀每月
+- [supermaven](https://supermaven.com/) 30天试用，10刀/月
   
 **国产**
 
