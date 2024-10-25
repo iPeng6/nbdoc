@@ -1,5 +1,12 @@
 # 往期归档
 
+## 2024年10月25日
+
+- [bolt.new](https://bolt.new/)
+- [豆包 MarsCode](https://www.marscode.cn/events/s/iSfHmQq7/)
+- [Webstorm](https://www.jetbrains.com/zh-cn/webstorm/)
+
+
 ## 2024年10月20日
 
 - [Why WordPress founder Matt Mullenweg has gone ‘nuclear’ against tech investing giant Silver Lake](https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html)

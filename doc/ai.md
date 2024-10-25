@@ -15,6 +15,7 @@
 - [phind](https://www.phind.com/) 专为编程专家打造的智能搜索工具，提供个性化的搜索体验
 - [You.com](https://you.com/) 总结网上优质内容，没有广告，隐私性高，对中文搜索非常友好
 - [秘塔AI搜索](https://metaso.cn/) 由上海秘塔网络科技有限公司开发，专注于无广告、高效的搜索体验
+- kimi 探索版
   
 ## 浏览器插件
 
@@ -33,5 +34,9 @@
 - [通义灵码](https://tongyi.aliyun.com/lingma/) - 阿里 ｜ 个人免费
 - [Fitten Code](https://code.fittentech.com/) - 非十科技 ｜ 个人免费
 - [文心快码](https://comate.baidu.com/zh) - 百度 ｜ 个人免费
-- [豆包MarsCode](https://www.marscode.com/) - 字节 ｜ 代码补全：每天1500次，问答：每天100次
+- [豆包MarsCode](https://www.marscode.com/) - 字节 ｜ 个人免费, 新户专属链接：https://www.marscode.cn/events/s/iSfHmQq7/
 - [CodeArts Snap](https://www.huaweicloud.com/product/codeartside/snap.html) - 华为 ｜ ¥300.00/人/月
+
+## AI 命令行终端
+
+- [warp](https://www.warp.dev/)
