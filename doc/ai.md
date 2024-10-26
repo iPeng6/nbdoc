@@ -5,6 +5,7 @@
 - [ChatKit](https://chatkit.app/) 类似 ChatGPT，支持多种模型，需要自己填写密钥，也可以升级高级版充值使用 OpenAI 模型，按需消费实际比 ChatGPT 订阅式要便宜的很多，关键国内不用科学上网
 - [Aichatru](https://aichatru.ru/) 免费在线AI聊天, 一站式体验GPT4o Mini、GPT-4o、Claude 3.5 Sonnet和Claude Opus，免费在线使用，无需注册
 - [lmarena](https://lmarena.ai/) Chatbot Arena (lmarena.ai) 是一个开源平台，用于通过人类偏好评估人工智能，由加州大学伯克利分校 SkyLab 和 LMSYS 的研究人员开发。
+- [chat100.ai](https://chat100.ai/) 免费在线体验ChatGPT 4o和Claude 3.5 Sonnet
 - [Google Gemini](https://gemini.google.com/) 谷歌版 ChatGPT, 效果一般主要是模型数据更加实时一点
 
 ## AI 搜索
