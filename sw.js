@@ -1,4 +1,4 @@
-const cacheVersion = "v101003";
+const cacheVersion = "v1031";
 
 const addResourcesToCache = async (resources) => {
   const cache = await caches.open(cacheVersion);
@@ -6,9 +6,9 @@ const addResourcesToCache = async (resources) => {
 };
 
 const putInCache = async (request, response) => {
-  if (request.method === "GET") {
+  if (request.method === "GET" && response.status === 200) {
     const cache = await caches.open(cacheVersion);
-    await cache.put(request, response);
+    await cache.put(request, response.clone());
   }
 };
 
@@ -44,7 +44,7 @@ const cacheFirst = async ({ request }) => {
 
     if (isExpired) {
       fetch(request).then((responseFromNetwork) => {
-        putInCache(request, responseFromNetwork.clone());
+        putInCache(request, responseFromNetwork);
       });
     }
 
@@ -57,7 +57,7 @@ const cacheFirst = async ({ request }) => {
     // 响应可能会被使用
     // 我们需要将它的拷贝放入缓存
     // 然后再返回该响应
-    putInCache(request, responseFromNetwork.clone());
+    putInCache(request, responseFromNetwork);
     return responseFromNetwork;
   } catch (error) {
     // 当回落的响应也不可用时，
