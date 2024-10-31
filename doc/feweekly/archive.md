@@ -1,5 +1,16 @@
 # 往期归档
 
+## 2024年10月31日
+
+- [JS0/JSSugar](https://docs.google.com/presentation/d/1ylROTu3N6MyHzNzWJXQAc7Bo1O0FHO3lNKfQMfPOA4o/)
+   - [JS0/JSSugar: the tooling will continue until morale improves](https://caolan.uk/notes/2024-10-14_js0_jssugar.cm)
+- [npkill](https://www.npmjs.com/package/npkill)
+- [Atomic CSS Devtools](https://chromewebstore.google.com/detail/atomic-css-devtools/cbjhfeooiomphlikkblgdageenemhpgc)
+- [State of CSS 2024](https://2024.stateofcss.com/en-US/)
+- [Next.js 15](https://nextjs.org/blog/next-15)
+- [We're forking Flutter. This is why.](https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/)
+- [React Native 0.76 - New Architecture by default, React Native DevTools, and more](https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture#react-native-new-architecture-by-default)
+
 ## 2024年10月25日
 
 - [bolt.new](https://bolt.new/)
