@@ -14,7 +14,7 @@
 ## 2024年10月25日
 
 - [bolt.new](https://bolt.new/)
-- [豆包 MarsCode](https://www.marscode.cn/events/s/iSfHmQq7/)
+- [豆包 MarsCode](https://www.marscode.cn/)
 - [Webstorm](https://www.jetbrains.com/zh-cn/webstorm/)
 
 
