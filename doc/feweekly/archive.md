@@ -119,6 +119,15 @@
 - [React is (becoming) a Full-Stack Framework](https://www.robinwieruch.de/react-full-stack-framework/)
 - [T3 Stack](https://create.t3.gg/)
 
+## 2024年08月27日
+
+- [Intl.RelativeTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat)
+- [Understanding the automatic minimum size of flex items](https://www.bigbinary.com/blog/understanding-the-automatic-minimum-size-of-flex-items)
+- [Good Refactoring vs Bad Refactoring](https://www.builder.io/blog/good-vs-bad-refactoring)
+- [Synchronizing State In React](https://www.brenelz.com/posts/synchronizing-state-in-react/)
+- [Colr Fonts|X](https://x.com/argyleink/status/1824104386320290076)
+  - [Font with Built-In Syntax Highlighting](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)
+- [What's new in DevTools, Chrome 128](https://developer.chrome.com/blog/new-in-devtools-128)
 
 ## 2024年08月16日
 
