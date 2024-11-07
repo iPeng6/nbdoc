@@ -28,7 +28,7 @@
    - https://x.com/rwieruch/status/1836434009041035635
 - https://imagehover.io/
 - https://uiball.com/ldrs/
-- https://arturbien.github.io/balloons-js/·
+- https://arturbien.github.io/balloons-js/
 
 ## 2024年10月13日
 
@@ -36,7 +36,7 @@
    - [🎬 Node.js 十大设计缺陷](https://www.youtube.com/watch?v=M3BM9TB-8yA)
    - [Troubleshooting node-gyp Package on Windows 11](https://devkimchi.com/2021/11/26/troubleshooting-node-gyp-package-on-windows11/)
    - [X|Deno|Programming should be simple](https://x.com/deno_land/status/1844418020539846754)
-- [Improving rendering performance with CSS content-visibility](https://nolanlawson.com/2024/09/18/improving-rendering-performance-with-css-content-visibility/) [content-visibility demo](doc/css/demo/content-visibility.html)
+- [Improving rendering performance with CSS content-visibility](https://nolanlawson.com/2024/09/18/improving-rendering-performance-with-css-content-visibility/) [content-visibility demo](/doc/css/demo/content-visibility.html)
 - [localsend](https://localsend.org/zh-CN)
 - [X|StackBlitz|CSS techniques: "The Backlight"](https://x.com/stackblitz/status/1840756639407698374)
 
@@ -58,7 +58,7 @@
 - [WebKit Features in Safari 18.0](https://webkit.org/blog/15865/webkit-features-in-safari-18-0/)
    - https://cdpn.io/pen/debug/BaggYwa
    - https://codepen.io/jh3y/pen/BaggYwa
-   - [view-transitioin demo](doc/css/demo/view-transitioin.html)
+   - [view-transitioin demo](/doc/css/demo/view-transitioin.html)
 - [Why we switched from Cypress to Playwright](https://www.bigbinary.com/blog/why-we-switched-from-cypress-to-playwright)
 
 ## 2024年10月02日

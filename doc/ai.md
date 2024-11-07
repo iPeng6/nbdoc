@@ -6,7 +6,7 @@
 - [Aichatru](https://aichatru.ru/) 免费在线AI聊天, 一站式体验GPT4o Mini、GPT-4o、Claude 3.5 Sonnet和Claude Opus，免费在线使用，无需注册
 - [lmarena](https://lmarena.ai/) Chatbot Arena (lmarena.ai) 是一个开源平台，用于通过人类偏好评估人工智能，由加州大学伯克利分校 SkyLab 和 LMSYS 的研究人员开发。
 - [chat100.ai](https://chat100.ai/) 免费在线体验ChatGPT 4o和Claude 3.5 Sonnet
-- [Google Gemini](https://gemini.google.com/) 谷歌版 ChatGPT, 效果一般主要是模型数据更加实时一点
+- [Google Gemini](https://gemini.google.com/) 谷歌版 ChatGPT, 效果一般主要是模型数据更加实时一点, 需要账号且有地区限制
 
 ## AI 搜索
 
@@ -16,7 +16,8 @@
 - [phind](https://www.phind.com/) 专为编程专家打造的智能搜索工具，提供个性化的搜索体验
 - [You.com](https://you.com/) 总结网上优质内容，没有广告，隐私性高，对中文搜索非常友好
 - [秘塔AI搜索](https://metaso.cn/) 由上海秘塔网络科技有限公司开发，专注于无广告、高效的搜索体验
-- kimi 探索版
+- [kimi 探索版](https://kimi.moonshot.cn/) 输入斜杠‘/’ 选择使用探索版，有使用次数限制
+- [ChatGPT Search](https://openai.com/index/introducing-chatgpt-search/) OpenAI 的 ChatGPT 也开始官方支持搜索
   
 ## 浏览器插件
 
@@ -43,6 +44,7 @@
 
 - [v0.dev](https://v0.dev/)
 - [bolt.new](https://bolt.new/)
+- [Github Spark](https://githubnext.com/projects/github-spark)
 
 ## AI 命令行终端
 

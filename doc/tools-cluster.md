@@ -20,3 +20,12 @@
 ## 免费API
 
 - <img src="https://favicon.im/www.freepublicapis.com" alt="www.freepublicapis.com favicon" width="20" style="vertical-align: sub;" /> [Free Public APIs](https://www.freepublicapis.com/)
+
+## 压缩
+
+- [Video Compressor](https://tools.rotato.app/compress) 在线压缩视频文件，最高可减少 90%的大小，且不会损失视觉质量。完全免费。
+- [Squoosh](https://squoosh.app/) 在线图片压缩，支持jpg、png、webp、avif
+  
+## 视频下载
+
+- [cobalt](https://cobalt.tools/) cobalt 帮助你从你最喜欢的网站保存任何东西：视频、音频、照片或动图。只需粘贴链接，你就可以开始了！(已测试Youtube、 Twitter)
