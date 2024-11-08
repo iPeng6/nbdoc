@@ -1,5 +1,18 @@
 # 往期归档
 
+## 2024年11月08日
+
+- [特效编辑器｜X](https://x.com/zack_overflow/status/1853494692169896361)
+   - https://github.com/zackradisic/tether
+- [Introducing ChatGPT search](https://openai.com/index/introducing-chatgpt-search/)
+- [Python is now the number 1 language|X](https://x.com/ashtom/status/1851345368984011220)
+   - [Octoverse: AI leads Python to top language as the number of global developers surges](https://github.blog/news-insights/octoverse/octoverse-2024/)
+- [iCraft Editor](https://icraft.gantcloud.com/)
+- [How we shrunk our Javascript monorepo git size by 94%](https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/)
+   - [git-sizer](https://github.com/github/git-sizer)
+   - [git-filter-repo](https://github.com/newren/git-filter-repo)
+- [pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop)
+
 ## 2024年10月31日
 
 - [JS0/JSSugar](https://docs.google.com/presentation/d/1ylROTu3N6MyHzNzWJXQAc7Bo1O0FHO3lNKfQMfPOA4o/)
