@@ -2,10 +2,10 @@
 
 ## 2024年11月17日
 
-[my React、Vue、 Angular](https://gist.github.com/faustinoaq/b19da758fc45155a0b3b10d9f578c5ce)
-[Shopify 迁移 ReactNative](https://threadreaderapp.com/thread/1853619638141071573.html)
-[A Friendly Introduction to Container Queries](https://www.joshwcomeau.com/css/container-queries-introduction/)
-[React Scan](https://github.com/aidenybai/react-scan)
+- [my React、Vue、 Angular](https://gist.github.com/faustinoaq/b19da758fc45155a0b3b10d9f578c5ce)
+- [Shopify 迁移 ReactNative](https://threadreaderapp.com/thread/1853619638141071573.html)
+- [A Friendly Introduction to Container Queries](https://www.joshwcomeau.com/css/container-queries-introduction/)
+- [React Scan](https://github.com/aidenybai/react-scan)
 
 ## 2024年11月08日
 
