@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Angular from Scratch</title>
+    <style>
+      .my-component {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background: #f0f0f0;
+      }
+
+      .my-component .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .my-component .message {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .my-component .buttons button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+
+      .my-component .buttons button:hover {
+        background: #ddd;
+      }
+
+      .my-component .buttons button:active {
+        background: #ccc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="my-component">
+        <div class="container">
+          <p class="message">Count: <span ng-bind="count"></span></p>
+          <div class="buttons">
+            <button ng-click="increment">Increment</button>
+            <button ng-click="decrement">Decrease</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Reactive system to track changes
+      function reactive(data) {
+        const listeners = [];
+
+        const proxy = new Proxy(data, {
+          set(target, property, value) {
+            target[property] = value;
+            listeners.forEach((listener) => listener()); // Notify all listeners on data change
+            return true;
+          },
+        });
+
+        proxy.subscribe = function (listener) {
+          listeners.push(listener);
+        };
+
+        return proxy;
+      }
+
+      // Our basic Angular-like app system
+      function myAngularApp(rootElement, controller) {
+        const data = reactive(controller.data());
+
+        // Bind methods to data
+        for (const key in controller.methods) {
+          data[key] = function () {
+            controller.methods[key].call(data); // Call the controller method in context of data
+            data.notify(); // Trigger re-render
+          };
+        }
+
+        // Notify function to re-render on changes
+        data.notify = function () {
+          compile(rootElement);
+        };
+
+        function compile(element) {
+          const bindElements = element.querySelectorAll("[ng-bind]");
+          const clickElements = element.querySelectorAll("[ng-click]");
+
+          // Set text content for bound elements
+          bindElements.forEach((el) => {
+            const property = el.getAttribute("ng-bind");
+            el.textContent = data[property];
+          });
+
+          // Set up click handlers for elements with ng-click
+          clickElements.forEach((el) => {
+            const methodName = el.getAttribute("ng-click");
+            el.onclick = data[methodName]; // Assign the method directly to onclick
+          });
+        }
+
+        // Initial compilation
+        compile(rootElement);
+        data.subscribe(() => compile(rootElement)); // Subscribe compile function to re-render on data change
+      }
+
+      // Define controller with data and methods
+      const MyController = {
+        data() {
+          return { count: 0 };
+        },
+        methods: {
+          increment() {
+            this.count++;
+          },
+          decrement() {
+            this.count--;
+          },
+        },
+      };
+
+      // Initialize the app
+      document.addEventListener("DOMContentLoaded", function () {
+        const rootElement = document.getElementById("app");
+        myAngularApp(rootElement, MyController);
+      });
+    </script>
+  </body>
+</html>

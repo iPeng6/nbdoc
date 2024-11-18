@@ -10,6 +10,7 @@
 - <img src="https://favicon.im/www.toolai.io" alt="www.toolai.io favicon" width="20" style="vertical-align: sub;" /> [toolai](https://www.toolai.io/) 发现最佳人工智能网站, `6900+` 人工智能平台和工具，每日更新
 - [Futurepedia](https://www.futurepedia.io/)
 - [AI工具集](https://ai-bot.cn/)
+- [302.AI](https://302.ai/)
 
 ## ICON
 

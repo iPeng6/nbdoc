@@ -25,10 +25,11 @@
 
 ## 代码助手
 
-- [Cursor](https://www.cursor.com/) 两周试用， 2000次 自动补全，50个慢速高级请求，Pro 20刀每月
+- [Cursor](https://www.cursor.com/) IDE, 两周试用， 2000次 自动补全，50个慢速高级请求，Pro 20刀每月
 - [Github Copilot](https://github.com/features/copilot) 10刀每月
 - [Tabnine](https://www.tabnine.com/) 12刀每月 免费试用90天
 - [codeium](https://codeium.com/) 个人免费, Pro 10刀每月
+  - [windsurf](https://codeium.com/windsurf) IDE
 - [supermaven](https://supermaven.com/) 30天试用，10刀/月
   
 **国产**
@@ -37,7 +38,7 @@
 - [通义灵码](https://tongyi.aliyun.com/lingma/) - 阿里 ｜ 个人免费
 - [Fitten Code](https://code.fittentech.com/) - 非十科技 ｜ 个人免费
 - [文心快码](https://comate.baidu.com/zh) - 百度 ｜ 个人免费
-- [豆包MarsCode](https://www.marscode.com/) - 字节 ｜ 个人免费, 新户专属链接：https://www.marscode.cn/events/s/iSfHmQq7/
+- [豆包 MarsCode](https://www.marscode.com/) - 字节 ｜ 个人免费
 - [CodeArts Snap](https://www.huaweicloud.com/product/codeartside/snap.html) - 华为 ｜ ¥300.00/人/月
 
 ## 在线全自动写代码
