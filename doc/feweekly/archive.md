@@ -1,5 +1,22 @@
 # 往期归档
 
+## 2024年11月25日
+
+- [Docker-OSX](https://github.com/sickcodes/Docker-OSX)
+- [WebVM](https://github.com/leaningtech/webvm)
+   - [linux-command](https://github.com/jaywcjlove/linux-command)
+- [WebContainer](https://webcontainers.io/)
+   - [pkg-size](https://pkg-size.dev/)
+- [CSS Gets a New Logo: And It Uses the Color `rebeccapurple`](https://michaelcharl.es/aubrey/en/code/new-rebeccapurple-css-logo)
+   - [CSS Logo](https://github.com/CSS-Next/logo.css)
+- [Overflow Clip](https://ishadeed.com/article/overflow-clip/)
+- [Introducing the vlt Package Manager & Serverless Registry](https://blog.vlt.sh/blog/introducing-vlt-and-vsr)
+   - [qnm](https://github.com/ranyitz/qnm)
+   - [npmgraph](https://npmgraph.js.org/)
+- [Meet Angular v19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84)
+- [windsurf](https://codeium.com/windsurf)
+- [Github Spark](https://githubnext.com/projects/github-spark)
+
 ## 2024年11月17日
 
 - [my React、Vue、 Angular](https://gist.github.com/faustinoaq/b19da758fc45155a0b3b10d9f578c5ce)
