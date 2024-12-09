@@ -1,5 +1,11 @@
 # 往期归档
 
+## 2024年12月09日 - 第361期
+
+- [React v19](https://react.dev/blog/2024/12/05/react-19)
+- [vue-scan](https://github.com/zcf0508/vue-scan)
+- https://bfcm.shopify.com/
+  - https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe
 
 ## 2024年12月01日 - 第35期
 
