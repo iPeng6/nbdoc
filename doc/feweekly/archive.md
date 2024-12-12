@@ -1,6 +1,6 @@
 # 往期归档
 
-## 2024年12月09日 - 第361期
+## 2024年12月09日 - 第36期
 
 - [React v19](https://react.dev/blog/2024/12/05/react-19)
 - [vue-scan](https://github.com/zcf0508/vue-scan)

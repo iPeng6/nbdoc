@@ -4,7 +4,6 @@
 - <img src="https://favicon.im/www.toolai.io" alt="www.toolai.io favicon" width="20" style="vertical-align: sub;" /> [toolai](https://www.toolai.io/) 发现最佳人工智能网站, `6900+` 人工智能平台和工具，每日更新
 - [Futurepedia](https://www.futurepedia.io/)
 - [AI工具集](https://ai-bot.cn/)
-- [302.AI](https://gpt302.saaslink.net/OnRYmB) AI 超市，AI代理平替，按流量收费模式用多少扣多少，邀请码 OnRYmB
 - [Latent Box](https://latentbox.com/en)
 
 ## ChatGPT 平替
@@ -14,6 +13,7 @@
 - [lmarena](https://lmarena.ai/) Chatbot Arena (lmarena.ai) 是一个开源平台，用于通过人类偏好评估人工智能，由加州大学伯克利分校 SkyLab 和 LMSYS 的研究人员开发。
 - [chat100.ai](https://chat100.ai/) 免费在线体验ChatGPT 4o和Claude 3.5 Sonnet
 - [Google Gemini](https://gemini.google.com/) 谷歌版 ChatGPT, 效果一般主要是模型数据更加实时一点, 需要账号且有地区限制
+- [302.AI](https://gpt302.saaslink.net/OnRYmB) AI 超市，AI代理平替，按流量收费模式用多少扣多少，邀请码 OnRYmB
 
 ## AI 搜索
 
