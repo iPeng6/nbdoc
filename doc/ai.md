@@ -55,7 +55,13 @@
 - [v0.dev](https://v0.dev/)
 - [bolt.new](https://bolt.new/)
 - [Github Spark](https://githubnext.com/projects/github-spark)
+- [lovable](https://lovable.dev/)
+- [Devin](https://devin.ai/)
 
 ## AI 命令行终端
 
 - [warp](https://www.warp.dev/)
+
+## AI 测试
+
+- Midscene.js
