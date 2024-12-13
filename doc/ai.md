@@ -40,6 +40,7 @@
 - [supermaven](https://supermaven.com/) 30天试用，10刀/月
 - [Screenshot to Code](https://screenshottocode.com/) 将任何截图或设计转换为干净的代码（支持大多数框架）
 - [blackbox Screenshot to Code](https://www.blackbox.ai/screenshot)
+- [CopyCoder](https://copycoder.ai/) Create powerful prompts for Cursor, Bolt, v0 & more..
 
 **国产**
 
@@ -50,13 +51,15 @@
 - [豆包 MarsCode](https://www.marscode.com/) - 字节 ｜ 个人免费
 - [CodeArts Snap](https://www.huaweicloud.com/product/codeartside/snap.html) - 华为 ｜ ¥300.00/人/月
 
-## 在线全自动写代码
+## AI 全自动写代码
 
-- [v0.dev](https://v0.dev/)
-- [bolt.new](https://bolt.new/)
-- [Github Spark](https://githubnext.com/projects/github-spark)
-- [lovable](https://lovable.dev/)
-- [Devin](https://devin.ai/)
+- <img src="https://favicon.im/devin.ai" alt="devin.ai favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Devin](https://devin.ai/)
+- <img src="https://favicon.im/bolt.new" alt="bolt.new favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [bolt.new](https://bolt.new/)
+- <img src="https://favicon.im/v0.dev" alt="v0.dev favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [v0.dev](https://v0.dev/)
+- <img src="https://favicon.im/lovable.dev" alt="lovable.dev favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [lovable](https://lovable.dev/)
+- <img src="https://favicon.im/replit.com" alt="replit.com favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Replit Agent](https://replit.com/)
+- <img src="https://githubnext.com/assets/images/next-octocat.svg" alt="github spark favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Github Spark](https://githubnext.com/projects/github-spark)
+
 
 ## AI 命令行终端
 
