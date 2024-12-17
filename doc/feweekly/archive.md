@@ -1,5 +1,19 @@
 # 往期归档
 
+## 2024年12月17日 - 第37期
+
+- text diff
+   - https://difftext.com/
+   - https://text-compare.com/
+   - https://diffsuite.com/
+- 二维码不清晰?!
+   - image-rendering: pixelated; 
+   - https://www.vecticon.co/tools/image-vectorizer
+- [Exploring the browser rendering process](https://abhisaha.com/blog/exploring-browser-rendering-process)
+- [A Layered Approach to Speculation Rules](https://arc.net/l/quote/bxlafdfm)
+- [Frosted Glass from Games to the Web](https://www.tyleo.com/html-glass.html)
+
+
 ## 2024年12月09日 - 第36期
 
 - [React v19](https://react.dev/blog/2024/12/05/react-19)
