@@ -1,6 +1,4 @@
-import { parse } from "https://deno.land/std@0.204.0/encoding/yaml.ts";
 import { join } from "https://deno.land/std@0.204.0/path/mod.ts";
-import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 import MarkdownIt from "https://esm.sh/markdown-it";
 
 const markdown = new MarkdownIt();
@@ -49,8 +47,8 @@ async function markdownToRSS(markdownContent: string, outputFile: string) {
     items += `
     <item>
       <title>${title}</title>
-      <link>https://你的周刊链接/${title.split(" ")[0]}</link>
-      <description><![CDATA[${descriptionHTML}]]></description>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[${descriptionHTML}<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
       <pubDate>${pubDate}</pubDate>
     </item>
 `;
@@ -65,8 +63,8 @@ async function markdownToRSS(markdownContent: string, outputFile: string) {
 }
 
 // 示例使用
-const markdownFilePath = join(Deno.cwd(), "weekly.md"); // 替换为你的 Markdown 文件路径
-const outputRSSPath = join(Deno.cwd(), "weekly_rss.xml");
+const markdownFilePath = join(Deno.cwd(), "archive.md"); // 替换为你的 Markdown 文件路径
+const outputRSSPath = join(Deno.cwd(), "rss.xml");
 
 // 读取 Markdown 文件
 try {

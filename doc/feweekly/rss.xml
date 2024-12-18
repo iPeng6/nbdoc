@@ -1,27 +1,456 @@
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
     <title>前端周刊-神农尝百码</title>
     <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
-    <description>前端周刊-web-weekly</description>
+    <description>前端周刊归档</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Dec 2024 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 16:09:13 GMT</lastBuildDate>
 
     <item>
       <title>2024年12月17日 - 第37期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
       <description><![CDATA[<ul>
-<li>text diff<ul>
-<li><a href="https://difftext.com/">https://difftext.com/</a></li>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-<li><a href="https://diffsuite.com/">https://diffsuite.com/</a></li>
-</ul></li>
-<li>二维码不清晰?!<ul>
+<li>text diff
+<ul>
+<li>https://difftext.com/</li>
+<li>https://text-compare.com/</li>
+<li>https://diffsuite.com/</li>
+</ul>
+</li>
+<li>二维码不清晰?!
+<ul>
 <li>image-rendering: pixelated;</li>
-<li><a href="https://www.vecticon.co/tools/image-vectorizer">https://www.vecticon.co/tools/image-vectorizer</a></li>
-</ul></li>
-</ul><div>具体视频请关注，抖音、B站号：神农尝百码-前端 💗</div>]]></description>
-      <pubDate>Tue, 17 Dec 2024 12:00:00 GMT</pubDate>
+<li>https://www.vecticon.co/tools/image-vectorizer</li>
+</ul>
+</li>
+<li><a href="https://abhisaha.com/blog/exploring-browser-rendering-process">Exploring the browser rendering process</a></li>
+<li><a href="https://arc.net/l/quote/bxlafdfm">A Layered Approach to Speculation Rules</a></li>
+<li><a href="https://www.tyleo.com/html-glass.html">Frosted Glass from Games to the Web</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年12月09日 - 第36期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://react.dev/blog/2024/12/05/react-19">React v19</a></li>
+<li><a href="https://github.com/zcf0508/vue-scan">vue-scan</a></li>
+<li>https://bfcm.shopify.com/
+<ul>
+<li>https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe</li>
+</ul>
+</li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年12月01日 - 第35期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://x.com/asidorenko_/status/1857475654364655751">html流式传输</a></li>
+<li><a href="https://deno.com/blog/deno-v-oracle">Deno v. Oracle: Canceling the JavaScript Trademark</a></li>
+<li><a href="https://www.joshwcomeau.com/css/browser-support/">A Framework for Evaluating Browser Support</a></li>
+<li><a href="https://tailwindcss.com/blog/tailwindcss-v4-beta">Tailwind CSS v4.0 Beta 1</a></li>
+<li><a href="https://mszula.github.io/visual-sorting/">visual-sorting</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年11月25日 - 第34期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://github.com/sickcodes/Docker-OSX">Docker-OSX</a></li>
+<li><a href="https://github.com/leaningtech/webvm">WebVM</a>
+<ul>
+<li><a href="https://github.com/jaywcjlove/linux-command">linux-command</a></li>
+</ul>
+</li>
+<li><a href="https://webcontainers.io/">WebContainer</a>
+<ul>
+<li><a href="https://pkg-size.dev/">pkg-size</a></li>
+</ul>
+</li>
+<li><a href="https://michaelcharl.es/aubrey/en/code/new-rebeccapurple-css-logo">CSS Gets a New Logo: And It Uses the Color <code>rebeccapurple</code></a>
+<ul>
+<li><a href="https://github.com/CSS-Next/logo.css">CSS Logo</a></li>
+</ul>
+</li>
+<li><a href="https://ishadeed.com/article/overflow-clip/">Overflow Clip</a></li>
+<li><a href="https://blog.vlt.sh/blog/introducing-vlt-and-vsr">Introducing the vlt Package Manager &amp; Serverless Registry</a>
+<ul>
+<li><a href="https://github.com/ranyitz/qnm">qnm</a></li>
+<li><a href="https://npmgraph.js.org/">npmgraph</a></li>
+</ul>
+</li>
+<li><a href="https://blog.angular.dev/meet-angular-v19-7b29dfd05b84">Meet Angular v19</a></li>
+<li><a href="https://codeium.com/windsurf">windsurf</a></li>
+<li><a href="https://githubnext.com/projects/github-spark">Github Spark</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年11月17日 - 第33期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://gist.github.com/faustinoaq/b19da758fc45155a0b3b10d9f578c5ce">my React、Vue、 Angular</a>
+<ul>
+<li><a href="/doc/framework/myAngular.html">myAngular.html</a></li>
+<li><a href="/doc/framework/myReact.html">myReact.html</a></li>
+<li><a href="/doc/framework/myVue.html">myVue.html</a></li>
+</ul>
+</li>
+<li><a href="https://threadreaderapp.com/thread/1853619638141071573.html">Shopify 迁移 ReactNative</a></li>
+<li><a href="https://www.joshwcomeau.com/css/container-queries-introduction/">A Friendly Introduction to Container Queries</a></li>
+<li><a href="https://github.com/aidenybai/react-scan">React Scan</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年11月08日 - 第32期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://x.com/zack_overflow/status/1853494692169896361">特效编辑器｜X</a>
+<ul>
+<li>https://github.com/zackradisic/tether</li>
+</ul>
+</li>
+<li><a href="https://openai.com/index/introducing-chatgpt-search/">Introducing ChatGPT search</a></li>
+<li><a href="https://x.com/ashtom/status/1851345368984011220">Python is now the number 1 language|X</a>
+<ul>
+<li><a href="https://github.blog/news-insights/octoverse/octoverse-2024/">Octoverse: AI leads Python to top language as the number of global developers surges</a></li>
+</ul>
+</li>
+<li><a href="https://icraft.gantcloud.com/">iCraft Editor</a></li>
+<li><a href="https://www.jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent/">How we shrunk our Javascript monorepo git size by 94%</a>
+<ul>
+<li><a href="https://github.com/github/git-sizer">git-sizer</a></li>
+<li><a href="https://github.com/newren/git-filter-repo">git-filter-repo</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/atlassian/pragmatic-drag-and-drop">pragmatic-drag-and-drop</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月31日 - 第31期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://docs.google.com/presentation/d/1ylROTu3N6MyHzNzWJXQAc7Bo1O0FHO3lNKfQMfPOA4o/">JS0/JSSugar</a>
+<ul>
+<li><a href="https://caolan.uk/notes/2024-10-14_js0_jssugar.cm">JS0/JSSugar: the tooling will continue until morale improves</a></li>
+</ul>
+</li>
+<li><a href="https://www.npmjs.com/package/npkill">npkill</a></li>
+<li><a href="https://chromewebstore.google.com/detail/atomic-css-devtools/cbjhfeooiomphlikkblgdageenemhpgc">Atomic CSS Devtools</a></li>
+<li><a href="https://2024.stateofcss.com/en-US/">State of CSS 2024</a></li>
+<li><a href="https://nextjs.org/blog/next-15">Next.js 15</a></li>
+<li><a href="https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/">We're forking Flutter. This is why.</a></li>
+<li><a href="https://reactnative.dev/blog/2024/10/23/release-0.76-new-architecture#react-native-new-architecture-by-default">React Native 0.76 - New Architecture by default, React Native DevTools, and more</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月25日 - 第30期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://bolt.new/">bolt.new</a></li>
+<li><a href="https://www.marscode.cn/">豆包 MarsCode</a></li>
+<li><a href="https://www.jetbrains.com/zh-cn/webstorm/">Webstorm</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月20日 - 第29期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html">Why WordPress founder Matt Mullenweg has gone ‘nuclear’ against tech investing giant Silver Lake</a>
+<ul>
+<li><a href="https://world.hey.com/dhh/automattic-is-doing-open-source-dirty-b95cf128">Automattic is doing open source dirty</a></li>
+<li><a href="https://mp.weixin.qq.com/s/z6vtmZAqvDYbVKyKYAgBKA">半生心血贡献给开源，WordPress 之父分叉 20 万行代码报复吸血企业，DHH：别发疯</a></li>
+</ul>
+</li>
+<li><a href="https://open-source-license-chooser.toolsnav.top/zh/">开源许可证选择器</a></li>
+<li><a href="https://www.robinwieruch.de/react-folder-structure/">React Folder Structure in 5 Steps 2024</a>
+<ul>
+<li>https://x.com/rwieruch/status/1836434009041035635</li>
+</ul>
+</li>
+<li>https://imagehover.io/</li>
+<li>https://uiball.com/ldrs/</li>
+<li>https://arturbien.github.io/balloons-js/</li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月13日 - 第28期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://deno.com/blog/v2.0">Announcing Deno 2</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=M3BM9TB-8yA">🎬 Node.js 十大设计缺陷</a></li>
+<li><a href="https://devkimchi.com/2021/11/26/troubleshooting-node-gyp-package-on-windows11/">Troubleshooting node-gyp Package on Windows 11</a></li>
+<li><a href="https://x.com/deno_land/status/1844418020539846754">X|Deno|Programming should be simple</a></li>
+</ul>
+</li>
+<li><a href="https://nolanlawson.com/2024/09/18/improving-rendering-performance-with-css-content-visibility/">Improving rendering performance with CSS content-visibility</a> <a href="/doc/css/demo/content-visibility.html">content-visibility demo</a></li>
+<li><a href="https://localsend.org/zh-CN">localsend</a></li>
+<li><a href="https://x.com/stackblitz/status/1840756639407698374">X|StackBlitz|CSS techniques: &quot;The Backlight&quot;</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月08日 - 第27期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/">How I Built My Blog - 2024 “App Router” Edition</a></li>
+<li><a href="https://voidzero.dev/posts/announcing-voidzero-inc">Announcing VoidZero - Next Generation Toolchain for JavaScript</a></li>
+<li><a href="https://v2.tauri.app/blog/tauri-20/">Tauri 2.0 Stable Release</a></li>
+<li><a href="https://javascript.tm/">Oracle, it’s time to free JavaScript.</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月05日 - 第26期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/">An Interactive Guide to CSS Grid</a>
+<ul>
+<li><a href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/">An Interactive Guide to Flexbox</a></li>
+</ul>
+</li>
+<li><a href="https://redmonk.com/sogrady/2024/09/12/language-rankings-6-24/">Language Rankings: June 2024</a></li>
+<li><a href="https://gitee.com/ice-gl/icegl-three-vue-tres">icegl-three-vue-tres</a>
+<ul>
+<li><a href="https://github.com/pmndrs/react-three-fiber">react-three-fiber</a></li>
+</ul>
+</li>
+<li><a href="https://webkit.org/blog/15865/webkit-features-in-safari-18-0/">WebKit Features in Safari 18.0</a>
+<ul>
+<li>https://cdpn.io/pen/debug/BaggYwa</li>
+<li>https://codepen.io/jh3y/pen/BaggYwa</li>
+<li><a href="/doc/css/demo/view-transitioin.html">view-transitioin demo</a></li>
+</ul>
+</li>
+<li><a href="https://www.bigbinary.com/blog/why-we-switched-from-cypress-to-playwright">Why we switched from Cypress to Playwright</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年10月02日 - 第25期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://godcode.win/#/page.html?p=doc/feweekly/feweekly.md">前端周刊</a>
+<ul>
+<li><a href="https://www.qireader.com/">Qi Reader</a></li>
+<li><a href="https://kill-the-newsletter.com/">Kill the Newsletter!</a></li>
+</ul>
+</li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月29日 - 第24期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://apps.apple.com/sg/app/web-inspector/id1584825745?platform=iphone">Web Inspector</a>
+<ul>
+<li><a href="https://github.com/Tencent/vConsole">vConsole</a></li>
+<li><a href="https://github.com/liriliri/eruda">eruda</a></li>
+</ul>
+</li>
+<li><a href="https://alexharri.com/blog/clipboard">The web's clipboard, and how it stores data of different types</a>
+<ul>
+<li><a href="https://www.figma.com/">Figma</a></li>
+</ul>
+</li>
+<li><a href="https://www.joshwcomeau.com/react/why-react-re-renders/">Why React Re-Renders</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月26日 - 第23期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors">Pretty TypeScript Errors</a></li>
+<li><a href="https://www.epicreact.dev/react-19-cheatsheet">React 19 Cheat Sheet</a>
+<ul>
+<li><a href="https://vercel.com/blog/whats-new-in-react-19">What’s new in React 19</a></li>
+</ul>
+</li>
+<li><a href="https://www.debugbear.com/blog/fix-web-performance-devtools">Brand New Performance Features in Chrome DevTools</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月21日 - 第22期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://github.com/mtbaqer/vscode-better-folding">VSCode Better Folding</a></li>
+<li><a href="https://blog.platformatic.dev/ssr-performance-showdown">An SSR Performance Showdown</a>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=hHWgGfZpk00">🎬 Why did OpenAI move from Next.js to Remix?</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/kpdecker/jsdiff">jsdiff</a>
+<ul>
+<li><a href="https://diff2html.xyz/">diff2html</a></li>
+<li><a href="https://praneshravi.in/react-diff-viewer/">react-diff-viewer</a></li>
+</ul>
+</li>
+<li><a href="https://www.notion.so/help/restrictions-for-customers-based-in-russia">Notion - Restrictions for customers based in Russia</a>
+<ul>
+<li><a href="https://obsidian.md/">obsidian</a></li>
+</ul>
+</li>
+<li><a href="https://ishadeed.com/article/display-contents/">CSS display contents</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月13日 - 第21期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://github.com/antfu-collective/ni">ni</a></li>
+<li><a href="https://build-your-own.org/blog/20240813_css_vertical_center/">CSS finally adds vertical centering in 2024</a></li>
+<li><a href="https://www.keithcirkel.co.uk/i-html/">i-html</a></li>
+<li><a href="https://ofajs.com/">ofajs</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月10日 - 第20期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://martijnhols.nl/gists/everything-about-google-translate-crashing-react">Everything about Google Translate crashing React (and other web apps)</a>
+<ul>
+<li><a href="https://github.com/facebook/react/issues/11538#issuecomment-417504600">workaround to fix Google Translate error</a></li>
+<li><a href="https://immersivetranslate.com/">沉浸式翻译</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/yoavbls/web-chaos-graph">web-chaos-graph</a></li>
+<li><a href="https://www.prisma.io/blog/announcing-typedsql-make-your-raw-sql-queries-type-safe-with-prisma-orm">Announcing TypedSQL: Make your raw SQL queries type-safe with Prisma ORM</a></li>
+<li><a href="https://keepingyouawake.app/">keepingyouawake</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年09月06日 - 第19期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://blog.vuejs.org/posts/vue-3-5">vue3.5</a>
+<ul>
+<li><a href="https://github.com/valcol/react-hydration-on-demand">react-hydration-on-demand</a></li>
+</ul>
+</li>
+<li><a href="https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript">Generate a PDF in React</a></li>
+<li><a href="https://www.robinwieruch.de/react-full-stack-framework/">React is (becoming) a Full-Stack Framework</a></li>
+<li><a href="https://create.t3.gg/">T3 Stack</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年08月27日 - 第17期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat">Intl.RelativeTimeFormat</a></li>
+<li><a href="https://www.bigbinary.com/blog/understanding-the-automatic-minimum-size-of-flex-items">Understanding the automatic minimum size of flex items</a></li>
+<li><a href="https://www.builder.io/blog/good-vs-bad-refactoring">Good Refactoring vs Bad Refactoring</a></li>
+<li><a href="https://www.brenelz.com/posts/synchronizing-state-in-react/">Synchronizing State In React</a></li>
+<li><a href="https://x.com/argyleink/status/1824104386320290076">Colr Fonts|X</a>
+<ul>
+<li><a href="https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/">Font with Built-In Syntax Highlighting</a></li>
+</ul>
+</li>
+<li><a href="https://developer.chrome.com/blog/new-in-devtools-128">What's new in DevTools, Chrome 128</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年08月16日 - 第15期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://0.30000000000000004.com/">0.1+0.2</a></li>
+<li><a href="https://www.phpied.com/files/location-location/location-location.html">location = location</a></li>
+<li>https://roadmap.sh/</li>
+<li><a href="https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/">Announcing Official Puppeteer Support for Firefox</a></li>
+<li>🎬 <a href="https://www.youtube.com/watch?v=6oXic6dcn9w">WebDriver BiDi: Future of browser automation</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年07月26日 - 第9期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://web-check.xyz/">web-check</a></li>
+<li><a href="https://naver.github.io/egjs-infinitegrid/">InfiniteGrid</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年07月22日 - 第7期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li><a href="https://www.bbss.dev/posts/react-learn-suspense/">Learn Suspense by Building a Suspense-Enabled Library</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>2024年07月14日 - 第4期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li>VueConf 2024</li>
+<li><a href="https://tonyalicea.dev/blog/understanding-react-compiler/">Understanding React Compiler</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 GMT</pubDate>
     </item>
 
   </channel>
