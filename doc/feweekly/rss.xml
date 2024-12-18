@@ -5,7 +5,7 @@
     <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
     <description>前端周刊归档</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Dec 2024 16:19:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 16:33:20 GMT</lastBuildDate>
 
     <item>
       <title>2024年12月17日 - 第37期</title>
@@ -13,15 +13,15 @@
       <description><![CDATA[<ul>
 <li>text diff
 <ul>
-<li>https://difftext.com/</li>
-<li>https://text-compare.com/</li>
-<li>https://diffsuite.com/</li>
+<li><a href="https://difftext.com/">https://difftext.com/</a></li>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+<li><a href="https://diffsuite.com/">https://diffsuite.com/</a></li>
 </ul>
 </li>
 <li>二维码不清晰?!
 <ul>
 <li>image-rendering: pixelated;</li>
-<li>https://www.vecticon.co/tools/image-vectorizer</li>
+<li><a href="https://www.vecticon.co/tools/image-vectorizer">https://www.vecticon.co/tools/image-vectorizer</a></li>
 </ul>
 </li>
 <li><a href="https://abhisaha.com/blog/exploring-browser-rendering-process">Exploring the browser rendering process</a></li>
@@ -38,9 +38,9 @@
       <description><![CDATA[<ul>
 <li><a href="https://react.dev/blog/2024/12/05/react-19">React v19</a></li>
 <li><a href="https://github.com/zcf0508/vue-scan">vue-scan</a></li>
-<li>https://bfcm.shopify.com/
+<li><a href="https://bfcm.shopify.com/">https://bfcm.shopify.com/</a>
 <ul>
-<li>https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe</li>
+<li><a href="https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe">https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe</a></li>
 </ul>
 </li>
 </ul>
@@ -122,7 +122,7 @@
       <description><![CDATA[<ul>
 <li><a href="https://x.com/zack_overflow/status/1853494692169896361">特效编辑器｜X</a>
 <ul>
-<li>https://github.com/zackradisic/tether</li>
+<li><a href="https://github.com/zackradisic/tether">https://github.com/zackradisic/tether</a></li>
 </ul>
 </li>
 <li><a href="https://openai.com/index/introducing-chatgpt-search/">Introducing ChatGPT search</a></li>
@@ -189,12 +189,12 @@
 <li><a href="https://open-source-license-chooser.toolsnav.top/zh/">开源许可证选择器</a></li>
 <li><a href="https://www.robinwieruch.de/react-folder-structure/">React Folder Structure in 5 Steps 2024</a>
 <ul>
-<li>https://x.com/rwieruch/status/1836434009041035635</li>
+<li><a href="https://x.com/rwieruch/status/1836434009041035635">https://x.com/rwieruch/status/1836434009041035635</a></li>
 </ul>
 </li>
-<li>https://imagehover.io/</li>
-<li>https://uiball.com/ldrs/</li>
-<li>https://arturbien.github.io/balloons-js/</li>
+<li><a href="https://imagehover.io/">https://imagehover.io/</a></li>
+<li><a href="https://uiball.com/ldrs/">https://uiball.com/ldrs/</a></li>
+<li><a href="https://arturbien.github.io/balloons-js/">https://arturbien.github.io/balloons-js/</a></li>
 </ul>
 <div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
       <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
@@ -249,8 +249,8 @@
 </li>
 <li><a href="https://webkit.org/blog/15865/webkit-features-in-safari-18-0/">WebKit Features in Safari 18.0</a>
 <ul>
-<li>https://cdpn.io/pen/debug/BaggYwa</li>
-<li>https://codepen.io/jh3y/pen/BaggYwa</li>
+<li><a href="https://cdpn.io/pen/debug/BaggYwa">https://cdpn.io/pen/debug/BaggYwa</a></li>
+<li><a href="https://codepen.io/jh3y/pen/BaggYwa">https://codepen.io/jh3y/pen/BaggYwa</a></li>
 <li><a href="/doc/css/demo/view-transitioin.html">view-transitioin demo</a></li>
 </ul>
 </li>
@@ -412,7 +412,7 @@
       <description><![CDATA[<ul>
 <li><a href="https://0.30000000000000004.com/">0.1+0.2</a></li>
 <li><a href="https://www.phpied.com/files/location-location/location-location.html">location = location</a></li>
-<li>https://roadmap.sh/</li>
+<li><a href="https://roadmap.sh/">https://roadmap.sh/</a></li>
 <li><a href="https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/">Announcing Official Puppeteer Support for Firefox</a></li>
 <li>🎬 <a href="https://www.youtube.com/watch?v=6oXic6dcn9w">WebDriver BiDi: Future of browser automation</a></li>
 </ul>

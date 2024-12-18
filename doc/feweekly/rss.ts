@@ -1,7 +1,7 @@
 import { join } from "https://deno.land/std@0.204.0/path/mod.ts";
 import MarkdownIt from "https://esm.sh/markdown-it";
 
-const markdown = new MarkdownIt();
+const markdown = new MarkdownIt({ linkify: true });
 
 /**
  * 将 Markdown 内容转换为 RSS 文件
