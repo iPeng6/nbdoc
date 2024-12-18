@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>我的周刊</title>
+    <title>前端周刊-神农尝百码</title>
     <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
     <description>前端周刊-web-weekly</description>
     <language>zh-cn</language>
@@ -20,7 +20,7 @@
 <li>image-rendering: pixelated;</li>
 <li><a href="https://www.vecticon.co/tools/image-vectorizer">https://www.vecticon.co/tools/image-vectorizer</a></li>
 </ul></li>
-</ul>]]></description>
+</ul><div>具体视频请关注，抖音、B站号：神农尝百码-前端 💗</div>]]></description>
       <pubDate>Tue, 17 Dec 2024 12:00:00 GMT</pubDate>
     </item>
 
