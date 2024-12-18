@@ -9,8 +9,7 @@ const markdown = new MarkdownIt();
  * @param outputFile 输出 RSS 文件路径
  */
 async function markdownToRSS(markdownContent: string, outputFile: string) {
-  const rssTemplateStart = `
-<?xml version="1.0" encoding="UTF-8" ?>
+  const rssTemplateStart = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
     <title>前端周刊-神农尝百码</title>
