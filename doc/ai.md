@@ -41,6 +41,7 @@
 - [Screenshot to Code](https://screenshottocode.com/) 将任何截图或设计转换为干净的代码（支持大多数框架）
 - [blackbox Screenshot to Code](https://www.blackbox.ai/screenshot)
 - [CopyCoder](https://copycoder.ai/) Create powerful prompts for Cursor, Bolt, v0 & more..
+- [Cline](https://github.com/cline/cline) 开源的AI编程助手插件，可配置三方模型代理
 
 **国产**
 

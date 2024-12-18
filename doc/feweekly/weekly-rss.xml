@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>我的周刊</title>
+    <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+    <description>前端周刊-web-weekly</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 17 Dec 2024 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>2024年12月17日 - 第37期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <description><![CDATA[<ul>
+<li>text diff<ul>
+<li><a href="https://difftext.com/">https://difftext.com/</a></li>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+<li><a href="https://diffsuite.com/">https://diffsuite.com/</a></li>
+</ul></li>
+<li>二维码不清晰?!<ul>
+<li>image-rendering: pixelated;</li>
+<li><a href="https://www.vecticon.co/tools/image-vectorizer">https://www.vecticon.co/tools/image-vectorizer</a></li>
+</ul></li>
+</ul>]]></description>
+      <pubDate>Tue, 17 Dec 2024 12:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
