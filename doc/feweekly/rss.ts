@@ -41,12 +41,14 @@ async function markdownToRSS(markdownContent: string, outputFile: string) {
           dateMatch[0].replace(/年|月/g, "-").replace("日", ""),
         ).toUTCString()
       : new Date().toUTCString();
+    const guid = title;
 
     // 生成 <item>
     items += `
     <item>
       <title>${title}</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">${guid}</guid>
       <description><![CDATA[${descriptionHTML}<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
       <pubDate>${pubDate}</pubDate>
     </item>

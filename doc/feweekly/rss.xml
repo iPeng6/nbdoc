@@ -5,11 +5,12 @@
     <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
     <description>前端周刊归档</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Dec 2024 16:33:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 09:58:41 GMT</lastBuildDate>
 
     <item>
       <title>2024年12月17日 - 第37期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年12月17日 - 第37期</guid>
       <description><![CDATA[<ul>
 <li>text diff
 <ul>
@@ -35,6 +36,7 @@
     <item>
       <title>2024年12月09日 - 第36期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年12月09日 - 第36期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://react.dev/blog/2024/12/05/react-19">React v19</a></li>
 <li><a href="https://github.com/zcf0508/vue-scan">vue-scan</a></li>
@@ -51,6 +53,7 @@
     <item>
       <title>2024年12月01日 - 第35期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年12月01日 - 第35期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://x.com/asidorenko_/status/1857475654364655751">html流式传输</a></li>
 <li><a href="https://deno.com/blog/deno-v-oracle">Deno v. Oracle: Canceling the JavaScript Trademark</a></li>
@@ -65,6 +68,7 @@
     <item>
       <title>2024年11月25日 - 第34期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年11月25日 - 第34期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://github.com/sickcodes/Docker-OSX">Docker-OSX</a></li>
 <li><a href="https://github.com/leaningtech/webvm">WebVM</a>
@@ -100,6 +104,7 @@
     <item>
       <title>2024年11月17日 - 第33期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年11月17日 - 第33期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://gist.github.com/faustinoaq/b19da758fc45155a0b3b10d9f578c5ce">my React、Vue、 Angular</a>
 <ul>
@@ -119,6 +124,7 @@
     <item>
       <title>2024年11月08日 - 第32期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年11月08日 - 第32期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://x.com/zack_overflow/status/1853494692169896361">特效编辑器｜X</a>
 <ul>
@@ -147,6 +153,7 @@
     <item>
       <title>2024年10月31日 - 第31期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月31日 - 第31期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://docs.google.com/presentation/d/1ylROTu3N6MyHzNzWJXQAc7Bo1O0FHO3lNKfQMfPOA4o/">JS0/JSSugar</a>
 <ul>
@@ -167,6 +174,7 @@
     <item>
       <title>2024年10月25日 - 第30期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月25日 - 第30期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://bolt.new/">bolt.new</a></li>
 <li><a href="https://www.marscode.cn/">豆包 MarsCode</a></li>
@@ -179,6 +187,7 @@
     <item>
       <title>2024年10月20日 - 第29期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月20日 - 第29期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html">Why WordPress founder Matt Mullenweg has gone ‘nuclear’ against tech investing giant Silver Lake</a>
 <ul>
@@ -203,6 +212,7 @@
     <item>
       <title>2024年10月13日 - 第28期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月13日 - 第28期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://deno.com/blog/v2.0">Announcing Deno 2</a>
 <ul>
@@ -222,6 +232,7 @@
     <item>
       <title>2024年10月08日 - 第27期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月08日 - 第27期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2/">How I Built My Blog - 2024 “App Router” Edition</a></li>
 <li><a href="https://voidzero.dev/posts/announcing-voidzero-inc">Announcing VoidZero - Next Generation Toolchain for JavaScript</a></li>
@@ -235,6 +246,7 @@
     <item>
       <title>2024年10月05日 - 第26期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月05日 - 第26期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/">An Interactive Guide to CSS Grid</a>
 <ul>
@@ -263,6 +275,7 @@
     <item>
       <title>2024年10月02日 - 第25期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年10月02日 - 第25期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://godcode.win/#/page.html?p=doc/feweekly/feweekly.md">前端周刊</a>
 <ul>
@@ -278,6 +291,7 @@
     <item>
       <title>2024年09月29日 - 第24期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月29日 - 第24期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://apps.apple.com/sg/app/web-inspector/id1584825745?platform=iphone">Web Inspector</a>
 <ul>
@@ -299,6 +313,7 @@
     <item>
       <title>2024年09月26日 - 第23期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月26日 - 第23期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors">Pretty TypeScript Errors</a></li>
 <li><a href="https://www.epicreact.dev/react-19-cheatsheet">React 19 Cheat Sheet</a>
@@ -315,6 +330,7 @@
     <item>
       <title>2024年09月21日 - 第22期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月21日 - 第22期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://github.com/mtbaqer/vscode-better-folding">VSCode Better Folding</a></li>
 <li><a href="https://blog.platformatic.dev/ssr-performance-showdown">An SSR Performance Showdown</a>
@@ -342,6 +358,7 @@
     <item>
       <title>2024年09月13日 - 第21期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月13日 - 第21期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://github.com/antfu-collective/ni">ni</a></li>
 <li><a href="https://build-your-own.org/blog/20240813_css_vertical_center/">CSS finally adds vertical centering in 2024</a></li>
@@ -355,6 +372,7 @@
     <item>
       <title>2024年09月10日 - 第20期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月10日 - 第20期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://martijnhols.nl/gists/everything-about-google-translate-crashing-react">Everything about Google Translate crashing React (and other web apps)</a>
 <ul>
@@ -373,6 +391,7 @@
     <item>
       <title>2024年09月06日 - 第19期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年09月06日 - 第19期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://blog.vuejs.org/posts/vue-3-5">vue3.5</a>
 <ul>
@@ -390,6 +409,7 @@
     <item>
       <title>2024年08月27日 - 第17期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年08月27日 - 第17期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat">Intl.RelativeTimeFormat</a></li>
 <li><a href="https://www.bigbinary.com/blog/understanding-the-automatic-minimum-size-of-flex-items">Understanding the automatic minimum size of flex items</a></li>
@@ -409,6 +429,7 @@
     <item>
       <title>2024年08月16日 - 第15期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年08月16日 - 第15期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://0.30000000000000004.com/">0.1+0.2</a></li>
 <li><a href="https://www.phpied.com/files/location-location/location-location.html">location = location</a></li>
@@ -423,6 +444,7 @@
     <item>
       <title>2024年07月26日 - 第9期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年07月26日 - 第9期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://web-check.xyz/">web-check</a></li>
 <li><a href="https://naver.github.io/egjs-infinitegrid/">InfiniteGrid</a></li>
@@ -434,6 +456,7 @@
     <item>
       <title>2024年07月22日 - 第7期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年07月22日 - 第7期</guid>
       <description><![CDATA[<ul>
 <li><a href="https://www.bbss.dev/posts/react-learn-suspense/">Learn Suspense by Building a Suspense-Enabled Library</a></li>
 </ul>
@@ -444,6 +467,7 @@
     <item>
       <title>2024年07月14日 - 第4期</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年07月14日 - 第4期</guid>
       <description><![CDATA[<ul>
 <li>VueConf 2024</li>
 <li><a href="https://tonyalicea.dev/blog/understanding-react-compiler/">Understanding React Compiler</a></li>
