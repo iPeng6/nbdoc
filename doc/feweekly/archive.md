@@ -26,7 +26,7 @@
 - [html流式传输](https://x.com/asidorenko_/status/1857475654364655751)
 - [Deno v. Oracle: Canceling the JavaScript Trademark](https://deno.com/blog/deno-v-oracle)
 - [A Framework for Evaluating Browser Support](https://www.joshwcomeau.com/css/browser-support/)
-- [Tailwind CSS v4.0 Beta 1](https://tailwindcss.com/blog/tailwindcss-v4-beta)
+- [Tailwind CSS v4.0 Beta 1](https://tailwindcss.com/blog/tailwindcss-v4-beta)
 - [visual-sorting](https://mszula.github.io/visual-sorting/)
 
 ## 2024年11月25日 - 第34期

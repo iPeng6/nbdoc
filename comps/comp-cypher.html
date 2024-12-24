@@ -19,43 +19,72 @@
       padding: 8px;
       font-size: 16px;
       border: 1px solid #ccc;
+      white-space: pre-wrap;
     }
   </style>
   <div>
     <h2>密语编解码</h2>
     <textarea name="source" id="source" placeholder="粘贴需要进行转换的字符串" sync:value="source"></textarea>
-    <button on:click="encode()">编码</button>
-    <button on:click="decode()">解码</button>
+    <button on:click="encode">编码</button>
+    <button on:click="decode">解码</button>
+    <button on:click="up">⬆️</button>
     <pre id="output">{{output}}</pre>
   </div>
   <script>
-    function encodeURL(url) {
-      const mapping = {
-        'a': '阿', 'b': '玻', 'c': '呲', 'd': '嘚', 'e': '鹅', 'f': '夫', 'g': '哥', 'h': '喝',
-        'i': '衣', 'j': '鸡', 'k': '科', 'l': '勒', 'm': '摸', 'n': '讷', 'o': '喔', 'p': '坡',
-        'q': '七', 'r': '日', 's': '思', 't': '特', 'u': '乌', 'v': '微', 'w': '屋', 'x': '西',
-        'y': '衣', 'z': '资',
-        '0': '零', '1': '一', '2': '二', '3': '三', '4': '四', '5': '五', '6': '六', '7': '七', '8': '八', '9': '九',
-        '.': '点', '/': '斜', ':': '冒', '-': '杠', '_': '下', '=': '等', '?': '问', '&': '和',
-        '!': '叹', '@': '圈', '#': '井', '$': '刀', '%': '百', '^': '帽', '*': '星', '(': '左', ')': '右',
-        '+': '加', '\'': '撇', '"': '双', ';': '分', '<': '小', '>': '大', ',': '逗', ' ': '空',
-        '[': '佐', ']': '佑', '{': '括', '}': '缩', '\\': '反', '|': '竖', '`': '顿', '~': '波'
-        // 可以继续添加更多字符的映射
-      };
+    const mapping = {
+      'a': '阿', 'b': '玻', 'c': '呲', 'd': '嘚', 'e': '鹅', 'f': '夫', 'g': '哥', 'h': '喝',
+      'i': '衣', 'j': '鸡', 'k': '科', 'l': '勒', 'm': '摸', 'n': '讷', 'o': '喔', 'p': '坡',
+      'q': '妻', 'r': '日', 's': '思', 't': '特', 'u': '乌', 'v': '微', 'w': '屋', 'x': '西',
+      'y': '伊', 'z': '资',
+      "A": "啊",
+      "B": "播",
+      "C": "吃",
+      "D": "的",
+      "E": "额",
+      "F": "佛",
+      "G": "咯",
+      "H": "呵",
+      "I": "医",
+      "J": "击",
+      "K": "棵",
+      "L": "乐",
+      "M": "抹",
+      "N": "呐",
+      "O": "噢",
+      "P": "泼",
+      "Q": "期",
+      "R": "热",
+      "S": "丝",
+      "T": "忑",
+      "U": "唔",
+      "V": "薇",
+      "W": "窝",
+      "X": "吸",
+      "Y": "依",
+      "Z": "滋",
+      '0': '零', '1': '一', '2': '二', '3': '三', '4': '四', '5': '五', '6': '六', '7': '七', '8': '八', '9': '九',
+      '.': '点', '/': '斜', ':': '冒', '-': '杠', '_': '下', '=': '等', '?': '问', '&': '和',
+      '!': '叹', '@': '圈', '#': '井', '$': '刀', '%': '百', '^': '帽', '*': '星', '(': '左', ')': '右',
+      '+': '加', '\'': '撇', '"': '双', ';': '分', '<': '小', '>': '大', ',': '逗', ' ': '空',
+      '[': '佐', ']': '佑', '{': '括', '}': '缩', '\\': '反', '|': '竖', '`': '顿', '~': '波'
+      // 可以继续添加更多字符的映射
+    };
+    // 反向映射
+    const reverseMapping = Object.keys(mapping).reduce((acc, key) => {
+      acc[mapping[key]] = key;
+      return acc;
+    }, {});
 
+    function encodeURL(url) {
       let encoded = "";
-      for (const char of url.toLowerCase()) {
+      for (const char of url) {
         encoded += mapping[char] || char; // 如果没有映射，保留原字符
       }
       return encoded;
     }
 
     function decodeURL(encodedURL) {
-      // 反向映射
-      const reverseMapping = Object.keys(mapping).reduce((acc, key) => {
-        acc[mapping[key]] = key;
-        return acc;
-      }, {});
+
 
       let decoded = "";
       for (let i = 0; i < encodedURL.length; i++) {
@@ -66,7 +95,7 @@
 
 
     function convertUrls(text) {
-      const urlRegex = /https?:\/\/(([a-zA-Z0-9_-])+(\.)?)*(:\d+)?(\/((\.)?(\?)?=?&?[a-zA-Z0-9_-](\?)?)*)*/ig;
+      const urlRegex = /https?:\/\/(([a-zA-Z0-9_-])+(\.)?)*(:\d+)?(\/((\.)?(\?)?=?&?[a-zA-Z0-9_-](\?)?)*)*/g;
 
       return text.replace(urlRegex, (url) => {
         return encodeURL(url)
@@ -74,7 +103,24 @@
     }
     function convertUrlsBack(text) {
 
-      const urlRegex = /(https?:\/\/[^\s]+)|(www\.[^\s]+)/g;
+
+      // 遍历 a-zA-Z0-9
+      //  'a' - 'z': 97 - 122
+      // 'A' - 'Z': 65 - 90
+      // '0' - '9': 48 - 57
+      let cnChars = [];
+      let cnNums = [];
+      for (let i = 0; i < 26; i++) {
+        cnChars.push(mapping[String.fromCharCode(97 + i)]);
+        cnChars.push(mapping[String.fromCharCode(65 + i)]);
+      }
+      for (let i = 0; i < 10; i++) {
+        cnNums.push(mapping[String.fromCharCode(48 + i)]);
+      }
+      const allChars = `${cnChars.concat(cnNums).join('|')}|下|杠`
+      // const urlRegex = /https?:\/\/(([a-zA-Z0-9_-])+(\.)?)*(:\d+)?(\/((\.)?(\?)?=?&?[a-zA-Z0-9_-](\?)?)*)*/g;
+      const urlRegex = new RegExp(`喝特特坡思?冒斜斜(([${allChars}])+(点)?)*(冒[${cnNums.join('|')}]+)?(斜(点?问?等?和?[${allChars}]问?)*)*`, 'g') // /喝特特坡思?冒斜斜(([a-zA-Z0-9_-])+(\.)?)*(:\d+)?(\/((\.)?(\?)?=?&?[a-zA-Z0-9_-](\?)?)*)*/
+
 
       return text.replace(urlRegex, (url) => {
         return decodeURL(url)
@@ -91,6 +137,10 @@
         },
         decode() {
           this.output = convertUrlsBack(this.source)
+        },
+        up() {
+          this.source = this.output;
+          this.output = ''
         }
       }
     }
