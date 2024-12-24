@@ -1,5 +1,10 @@
 # AI 工具
 
+## LM Ranking 大模型排行榜
+
+- https://lmarena.ai/?leaderboard 聊天机器人竞技场（原 LMSYS）
+- https://openrouter.ai/rankings OpenRouter 旗下排行榜
+
 ## AI 聚合
 - <img src="https://favicon.im/www.toolai.io" alt="www.toolai.io favicon" width="20" style="vertical-align: sub;" /> [toolai](https://www.toolai.io/) 发现最佳人工智能网站, `6900+` 人工智能平台和工具，每日更新
 - [Futurepedia](https://www.futurepedia.io/)
@@ -38,6 +43,7 @@
 - [codeium](https://codeium.com/) 个人免费, Pro 10刀每月
   - [windsurf](https://codeium.com/windsurf) IDE
 - [supermaven](https://supermaven.com/) 30天试用，10刀/月
+- [Amazon Q](https://aws.amazon.com/cn/q/) 有免费套餐，pro 版 19 美元/月
 - [Screenshot to Code](https://screenshottocode.com/) 将任何截图或设计转换为干净的代码（支持大多数框架）
 - [blackbox Screenshot to Code](https://www.blackbox.ai/screenshot)
 - [CopyCoder](https://copycoder.ai/) Create powerful prompts for Cursor, Bolt, v0 & more..
@@ -61,11 +67,10 @@
 - <img src="https://favicon.im/replit.com" alt="replit.com favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Replit Agent](https://replit.com/)
 - <img src="https://githubnext.com/assets/images/next-octocat.svg" alt="github spark favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Github Spark](https://githubnext.com/projects/github-spark)
 
-
 ## AI 命令行终端
 
 - [warp](https://www.warp.dev/)
 
-## AI 测试
+## AI 自动化测试
 
 - Midscene.js

@@ -1,127 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>神农尝百码-前端</title>
-    <link rel="icon" href="static/favicon.ico" />
-    <script src="static/ofa.min.js"></script>
-    <!-- 加载 o-router 组件 -->
-    <script src="static/router.min.js"></script>
-    <l-m src="l-md.html"></l-m>
-    <style>
-      html,
-      body {
-        color-scheme: light dark;
-        min-height: 100vh;
-        margin: 0;
-        padding: 0;
-        scroll-behavior: smooth;
-      }
-      @keyframes fade {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
 
-      /* 回到顶部按钮的样式 */
-      .back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #000;
-        color: #fff;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        text-decoration: none;
-        text-align: center;
-        line-height: 40px;
-        cursor: pointer;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>神农尝百码-前端</title>
+  <link rel="icon" href="static/favicon.ico" />
+  <script src="static/ofa.min.js"></script>
+  <!-- 加载 o-router 组件 -->
+  <script src="static/router.min.js"></script>
+  <l-m src="l-md.html"></l-m>
+  <l-m src="comps/comp-cypher.html"></l-m>
+  <style>
+    html,
+    body {
+      color-scheme: light dark;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    @keyframes fade {
+      from {
         opacity: 0;
-        box-shadow: 0 0 4px #000;
-        /* 设置动画 */
-        animation: fade auto linear;
-
-        /* 关键：设置动画时间轴为滚动进度 */
-        animation-timeline: view();
-
-        /* 设置动画范围：从视口50%开始到100% */
-        animation-range: 50% 100%;
-        user-select: none;
-        -webkit-tap-highlight-color: transparent;
       }
 
-      /* 可选：悬停效果 */
-      .back-to-top:hover {
-        background-color: #333;
+      to {
+        opacity: 1;
       }
-      @media (prefers-color-scheme: dark) {
-        .back-to-top {
-          background-color: #30363db3;
-          color: #ccc;
-        }
+    }
+
+    /* 回到顶部按钮的样式 */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #000;
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-decoration: none;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      opacity: 0;
+      box-shadow: 0 0 4px #000;
+      /* 设置动画 */
+      animation: fade auto linear;
+
+      /* 关键：设置动画时间轴为滚动进度 */
+      animation-timeline: view();
+
+      /* 设置动画范围：从视口50%开始到100% */
+      animation-range: 50% 100%;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* 可选：悬停效果 */
+    .back-to-top:hover {
+      background-color: #333;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .back-to-top {
+        background-color: #30363db3;
+        color: #ccc;
       }
-      o-router {
-        display: block;
-        min-height: 100vh;
-      }
-    </style>
-  </head>
-  <body>
-    <o-router>
-      <o-app src="app-config.mjs"></o-app>
-    </o-router>
-    <!-- 回到顶部按钮 -->
-    <div class="back-to-top" onclick="window.scrollTo(0,0)">↑</div>
-    <script>
-      const registerServiceWorker = async () => {
-        if ("serviceWorker" in navigator) {
-          try {
-            const registration = await navigator.serviceWorker.register(
-              "./sw.js",
-              {
-                scope: "./",
-              },
-            );
-            if (registration.installing) {
-              console.log("正在安装 Service worker");
-            } else if (registration.waiting) {
-              console.log("已安装 Service worker installed");
-            } else if (registration.active) {
-              console.log("激活 Service worker");
-            }
-          } catch (error) {
-            console.error(`注册失败：${error}`);
+    }
+
+    o-router {
+      display: block;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <o-router>
+    <o-app src="app-config.mjs"></o-app>
+  </o-router>
+  <!-- 回到顶部按钮 -->
+  <div class="back-to-top" onclick="window.scrollTo(0,0)">↑</div>
+  <script>
+    const registerServiceWorker = async () => {
+      if ("serviceWorker" in navigator) {
+        try {
+          const registration = await navigator.serviceWorker.register(
+            "./sw.js",
+            {
+              scope: "./",
+            },
+          );
+          if (registration.installing) {
+            console.log("正在安装 Service worker");
+          } else if (registration.waiting) {
+            console.log("已安装 Service worker installed");
+          } else if (registration.active) {
+            console.log("激活 Service worker");
           }
+        } catch (error) {
+          console.error(`注册失败：${error}`);
         }
-      };
-
-      const unregisterServiceWorker = async () => {
-        if ("serviceWorker" in navigator) {
-          try {
-            const registrations =
-              await navigator.serviceWorker.getRegistrations();
-            for (const registration of registrations) {
-              await registration.unregister();
-            }
-          } catch (error) {
-            console.error(`注销失败：${error}`);
-          }
-        }
-      };
-
-      if (
-        location.host.includes("localhost") ||
-        location.host.includes("127.0.0.1")
-      ) {
-        unregisterServiceWorker();
-      } else {
-        registerServiceWorker();
       }
-    </script>
-  </body>
+    };
+
+    const unregisterServiceWorker = async () => {
+      if ("serviceWorker" in navigator) {
+        try {
+          const registrations =
+            await navigator.serviceWorker.getRegistrations();
+          for (const registration of registrations) {
+            await registration.unregister();
+          }
+        } catch (error) {
+          console.error(`注销失败：${error}`);
+        }
+      }
+    };
+
+    if (
+      location.host.includes("localhost") ||
+      location.host.includes("127.0.0.1")
+    ) {
+      unregisterServiceWorker();
+    } else {
+      registerServiceWorker();
+    }
+  </script>
+</body>
+
 </html>
