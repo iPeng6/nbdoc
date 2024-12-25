@@ -1,5 +1,13 @@
 <template component>
   <style>
+    :host {
+      --bg-color: #fff;
+      --border-color: #d0d7deb3;
+      --btn-bg: #070808;
+      --text: white;
+    }
+
+
     .container {
       display: flex;
       flex-direction: column;
@@ -7,12 +15,11 @@
     }
 
     textarea {
-
       height: 200px;
       margin-bottom: 16px;
       padding: 12px;
       font-size: 16px;
-      border: 2px solid #e0e0e0;
+      border: 2px solid var(--border-color);
       border-radius: 8px;
       resize: vertical;
       transition: border-color 0.3s ease;
@@ -31,8 +38,8 @@
       margin-right: 12px;
       border: none;
       border-radius: 6px;
-      background-color: #070808;
-      color: white;
+      background-color: var(--btn-bg);
+      color: var(--text);
       cursor: pointer;
       transition: all 0.2s ease;
       font-weight: 500;
@@ -57,26 +64,57 @@
     }
 
     .output-text {
+      position: relative;
       flex: 1;
       padding: 16px;
       font-size: 16px;
       border-radius: 8px;
-      background-color: #f5f5f5;
-      border: 2px solid #e0e0e0;
+      background-color: var(--bg-color);
+      border: 2px solid var(--border-color);
+    }
+
+    .output-text pre {
+      margin: 0;
       white-space: pre-wrap;
       word-break: break-all;
     }
 
     .output-md {
+      position: relative;
       flex: 1;
       padding: 16px;
       border-radius: 8px;
-      border: 2px solid #e0e0e0;
+      border: 2px solid var(--border-color);
+    }
+
+    .copy {
+      position: absolute;
+      right: 4px;
+      top: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    .copy.ok {
+      color: #4caf50;
     }
 
     @media screen and (max-width: 768px) {
       .output {
         flex-direction: column;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :host {
+        --border-color: #30363db3;
+        --bg-color: #0d1117;
+        --c-gray: #ccc;
+        --btn-bg: #30363d;
+        --text: #ccc;
       }
     }
   </style>
@@ -87,12 +125,17 @@
       <button on:click="encode">编码</button>
       <button on:click="decode">解码</button>
       <button on:click="up">⬆️</button>
-
     </div>
     <div class="output">
-      <div class="output-text">{{output}}</div>
+      <div class="output-text">
+        <pre>{{output}}</pre>
+        <div class="copy" on:click="copy(0)" class:ok="copyedFirst"><x-if
+            :value="!copyedFirst">Copy</x-if><x-else>Success</x-else></div>
+      </div>
       <div class="output-md">
         <l-md :md="output"></l-md>
+        <div class="copy" on:click="copy(1)" class:ok="copyedSecond"><x-if
+            :value="!copyedSecond">Copy</x-if><x-else>Success</x-else></div>
       </div>
     </div>
   </div>
@@ -173,7 +216,9 @@
     export default {
       data: {
         source: '',
-        output: ''
+        output: '',
+        copyedFirst: false,
+        copyedSecond: false
       },
       proto: {
         encode() {
@@ -185,6 +230,21 @@
         up() {
           this.source = this.output;
           this.output = ''
+        },
+        copy(n) {
+          navigator.clipboard.writeText(this.output)
+          // toast('已复制到剪贴板')
+          if (n === 0) {
+            this.copyedFirst = true
+            setTimeout(() => {
+              this.copyedFirst = false
+            }, 2000);
+          } else {
+            this.copyedSecond = true
+            setTimeout(() => {
+              this.copyedSecond = false
+            }, 2000);
+          }
         }
       }
     }
