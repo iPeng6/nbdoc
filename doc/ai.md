@@ -2,8 +2,11 @@
 
 ## LM Ranking 大模型排行榜
 
-- https://lmarena.ai/?leaderboard 聊天机器人竞技场（原 LMSYS）
-- https://openrouter.ai/rankings OpenRouter 旗下排行榜
+- [Chatbot Arena LLM Leaderboard: Community-driven Evaluation for Best LLM and AI chatbots](https://lmarena.ai/?leaderboard) 社区驱动，意味着题库是所有用户的各种现实问题，及用户真实的体验评分，可信度高
+- [LiveBench](https://livebench.ai/) A Challenging, Contamination-Free LLM Benchmark 一个具有挑战性的无污染 LLM 基准测试，自己出题库，6 个类别中的 18 个多样化任务，优点是题库经常更新延时公开，防刷
+- [OpenRouter LLM Rankings](https://openrouter.ai/rankings) 根据用户提示和补全的使用数据排行，感觉总榜肯定会被编程类的占据，编程消耗token肯定是巨量的，所以该排行榜更偏向于编程能力
+- [Aider LLM Leaderboards](https://aider.chat/docs/leaderboards/) 也是评估编码能力的，根据题库解决问题，但更多是衡量全自动写代码的，无需人工干预
+
 
 ## AI 聚合
 - <img src="https://favicon.im/www.toolai.io" alt="www.toolai.io favicon" width="20" style="vertical-align: sub;" /> [toolai](https://www.toolai.io/) 发现最佳人工智能网站, `6900+` 人工智能平台和工具，每日更新

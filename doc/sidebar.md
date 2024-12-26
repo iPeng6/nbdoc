@@ -7,6 +7,7 @@
   - [布局](doc/css/layout.md)
 - [浏览器](doc/browser.md)
 - 性能
+  - [Core Web Vitals](doc/perf/cwv.md)
   - [ServiceWorker](doc/service-worker.md)
   - [纯 CSS 就能实现的性能优化](doc/perf/css-perf.md)
 - [真机调试](doc/real-device-debug.md)
