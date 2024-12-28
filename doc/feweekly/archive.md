@@ -1,5 +1,23 @@
 # 往期归档
 
+## 2024年12月29日 - 第38期
+
+- INP
+   - [How To Improve INP: React⚛️](https://arc.net/l/quote/dvgngiej) 
+      - [useEffect sometimes fires before paint](https://thoughtspile.github.io/2021/11/15/unintentional-layout-effect/)
+      - [Http Archive INP](https://httparchive.org/reports/techreport/comparison?tech=ALL%2CjQuery%2CReact%2CVue.js%2CRemix%2CNuxt.js%2CNext.js&geo=ALL&rank=ALL&good-cwv-over-time=INP#report-content)
+      - [Sites Now Become Interactive 50% Faster](https://www.framer.com/blog/sites-interactive-faster/)
+   - [Mastering Interaction to Next Paint (INP)](https://frontendmasters.com/blog/mastering-interaction-to-next-paint-inp/)
+   - [改进核心网页指标的最有效方法](https://web.dev/articles/top-cwv?hl=zh-cn)
+- [link rel='modulepreload': Optimize JavaScript Module Loading](https://www.trevorlasn.com/blog/module-preload)
+- json可视化
+   - [JSON Crack](https://jsoncrack.com/editor)
+   - [json4u](https://json4u.com/) 
+   - [jsontr.ee](https://jsontr.ee/)
+- [How does the React Compiler perform on real code](https://calendar.perfplanet.com/2024/how-does-the-react-compiler-perform-on-real-code/)
+- [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/)
+
+
 ## 2024年12月17日 - 第37期
 
 - text diff
@@ -133,8 +151,8 @@
 ## 2024年10月02日 - 第25期
 
 - [前端周刊](https://godcode.win/#/page.html?p=doc/feweekly/feweekly.md)
-   - [Qi Reader](https://www.qireader.com/)
-   - [Kill the Newsletter!](https://kill-the-newsletter.com/)
+- [Qi Reader](https://www.qireader.com/)
+- [Kill the Newsletter!](https://kill-the-newsletter.com/)
 
 ## 2024年09月29日 - 第24期
 

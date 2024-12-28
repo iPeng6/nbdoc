@@ -5,7 +5,40 @@
     <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
     <description>前端周刊归档</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Dec 2024 09:58:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 15:53:14 GMT</lastBuildDate>
+
+    <item>
+      <title>2024年12月29日 - 第38期</title>
+      <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
+      <guid isPermaLink="false">2024年12月29日 - 第38期</guid>
+      <description><![CDATA[<ul>
+<li>INP
+<ul>
+<li><a href="https://arc.net/l/quote/dvgngiej">How To Improve INP: React⚛️</a>
+<ul>
+<li><a href="https://thoughtspile.github.io/2021/11/15/unintentional-layout-effect/">useEffect sometimes fires before paint</a></li>
+<li><a href="https://httparchive.org/reports/techreport/comparison?tech=ALL%2CjQuery%2CReact%2CVue.js%2CRemix%2CNuxt.js%2CNext.js&amp;geo=ALL&amp;rank=ALL&amp;good-cwv-over-time=INP#report-content">Http Archive INP</a></li>
+<li><a href="https://www.framer.com/blog/sites-interactive-faster/">Sites Now Become Interactive 50% Faster</a></li>
+</ul>
+</li>
+<li><a href="https://frontendmasters.com/blog/mastering-interaction-to-next-paint-inp/">Mastering Interaction to Next Paint (INP)</a></li>
+<li><a href="https://web.dev/articles/top-cwv?hl=zh-cn">改进核心网页指标的最有效方法</a></li>
+</ul>
+</li>
+<li><a href="https://www.trevorlasn.com/blog/module-preload">link rel='modulepreload': Optimize JavaScript Module Loading</a></li>
+<li>json可视化
+<ul>
+<li><a href="https://jsoncrack.com/editor">JSON Crack</a></li>
+<li><a href="https://json4u.com/">json4u</a></li>
+<li><a href="https://jsontr.ee/">jsontr.ee</a></li>
+</ul>
+</li>
+<li><a href="https://calendar.perfplanet.com/2024/how-does-the-react-compiler-perform-on-real-code/">How does the React Compiler perform on real code</a></li>
+<li><a href="https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/">Understanding the main thread in the browser</a></li>
+</ul>
+<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate>
+    </item>
 
     <item>
       <title>2024年12月17日 - 第37期</title>
@@ -58,7 +91,7 @@
 <li><a href="https://x.com/asidorenko_/status/1857475654364655751">html流式传输</a></li>
 <li><a href="https://deno.com/blog/deno-v-oracle">Deno v. Oracle: Canceling the JavaScript Trademark</a></li>
 <li><a href="https://www.joshwcomeau.com/css/browser-support/">A Framework for Evaluating Browser Support</a></li>
-<li><a href="https://tailwindcss.com/blog/tailwindcss-v4-beta">Tailwind CSS v4.0 Beta 1</a></li>
+<li><a href="https://tailwindcss.com/blog/tailwindcss-v4-beta">Tailwind CSS v4.0 Beta 1</a></li>
 <li><a href="https://mszula.github.io/visual-sorting/">visual-sorting</a></li>
 </ul>
 <div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
@@ -277,12 +310,9 @@
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
       <guid isPermaLink="false">2024年10月02日 - 第25期</guid>
       <description><![CDATA[<ul>
-<li><a href="https://godcode.win/#/page.html?p=doc/feweekly/feweekly.md">前端周刊</a>
-<ul>
+<li><a href="https://godcode.win/#/page.html?p=doc/feweekly/feweekly.md">前端周刊</a></li>
 <li><a href="https://www.qireader.com/">Qi Reader</a></li>
 <li><a href="https://kill-the-newsletter.com/">Kill the Newsletter!</a></li>
-</ul>
-</li>
 </ul>
 <div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
       <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
