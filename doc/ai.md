@@ -33,6 +33,7 @@
 - [秘塔AI搜索](https://metaso.cn/) 由上海秘塔网络科技有限公司开发，专注于无广告、高效的搜索体验
 - [kimi 探索版](https://kimi.moonshot.cn/) 输入斜杠‘/’ 选择使用探索版，有使用次数限制
 - [ChatGPT Search](https://openai.com/index/introducing-chatgpt-search/) OpenAI 的 ChatGPT 也开始官方支持搜索
+- [deepseek](https://chat.deepseek.com/) 也支持联网搜索
   
 ## 浏览器插件
 
@@ -65,6 +66,7 @@
 
 - <img src="https://favicon.im/devin.ai" alt="devin.ai favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Devin](https://devin.ai/)
 - <img src="https://favicon.im/bolt.new" alt="bolt.new favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [bolt.new](https://bolt.new/)
+  - [bolt.diy](https://github.com/stackblitz-labs/bolt.diy) 开源版本
 - <img src="https://favicon.im/v0.dev" alt="v0.dev favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [v0.dev](https://v0.dev/)
 - <img src="https://favicon.im/lovable.dev" alt="lovable.dev favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [lovable](https://lovable.dev/)
 - <img src="https://favicon.im/replit.com" alt="replit.com favicon" width="20" style="vertical-align: sub;" loading="lazy"/> [Replit Agent](https://replit.com/)
@@ -76,4 +78,18 @@
 
 ## AI 自动化测试
 
-- Midscene.js
+- [Midscene.js](https://midscenejs.com/zh/)
+
+## TTS (Text-to-Speech)
+
+- [ChatTTS ](https://chattts.com/)
+- [F5-TTS](https://f5tts.org/) [Github|F5-TTS](https://github.com/SWivid/F5-TTS)
+- [Luvvoice](https://luvvoice.com/)
+- [CosyVoice](https://github.com/FunAudioLLM/CosyVoice)
+
+## Agent & workflow
+
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+- [browser-use](https://github.com/browser-use/browser-use)
+- [Coze](https://www.coze.cn/)
+- [Dify](https://dify.ai/)
