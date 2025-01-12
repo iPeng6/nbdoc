@@ -49,7 +49,7 @@ async function markdownToRSS(markdownContent: string, outputFile: string) {
       <title>${title}</title>
       <link>https://godcode.win/#/page.html?p=doc/feweekly/archive.md</link>
       <guid isPermaLink="false">${guid}</guid>
-      <description><![CDATA[${descriptionHTML}<div>具体配套视频请关注抖音、B站：神农尝百码-前端 💗</div>]]></description>
+      <description><![CDATA[${descriptionHTML}<div>具体配套视频请关注抖音、B站：神农尝百码Damon 💗</div>]]></description>
       <pubDate>${pubDate}</pubDate>
     </item>
 `;

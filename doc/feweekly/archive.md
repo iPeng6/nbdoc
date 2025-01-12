@@ -1,5 +1,13 @@
 # 往期归档
 
+## 2025年01月12日 - 第39期
+
+2024年前端 年度报告
+- [Web Almanac 2024](https://almanac.httparchive.org/en/2024/)
+- [The 2024 State of JavaScript](https://2024.stateofjs.com/en-US/)
+- [2024 JavaScript Rising Stars](https://risingstars.js.org/2024/en)
+- [CSS Wrapped 2024](https://chrome.dev/css-wrapped-2024/)
+
 ## 2024年12月29日 - 第38期
 
 - INP
@@ -17,7 +25,6 @@
 - [How does the React Compiler perform on real code](https://calendar.perfplanet.com/2024/how-does-the-react-compiler-perform-on-real-code/)
 - [Understanding the main thread in the browser](https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser/)
 
-
 ## 2024年12月17日 - 第37期
 
 - text diff
@@ -30,7 +37,6 @@
 - [Exploring the browser rendering process](https://abhisaha.com/blog/exploring-browser-rendering-process)
 - [A Layered Approach to Speculation Rules](https://arc.net/l/quote/bxlafdfm)
 - [Frosted Glass from Games to the Web](https://www.tyleo.com/html-glass.html)
-
 
 ## 2024年12月09日 - 第36期
 
