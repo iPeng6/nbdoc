@@ -14,12 +14,12 @@
 - [AI工具集](https://ai-bot.cn/)
 - [Latent Box](https://latentbox.com/en)
 
-## ChatGPT 平替
+## ChatGPT 免费平替
 
 - [Aichatru](https://aichatru.ru/) 免费在线AI聊天, 一站式体验GPT4o Mini、GPT-4o、Claude 3.5 Sonnet和Claude Opus，免费在线使用，无需注册
 - [chat100.ai](https://chat100.ai/) 免费在线体验ChatGPT 4o和Claude 3.5 Sonnet
 - [lmarena](https://lmarena.ai/) Chatbot Arena (lmarena.ai) 是一个开源平台，用于通过人类偏好评估人工智能，由加州大学伯克利分校 SkyLab 和 LMSYS 的研究人员开发。
-
+- [web.lmarena.ai](https://web.lmarena.ai/) WebDev 在线竞技，自动实现UI代码并生成预览
 
 ## AI API 代理
 
@@ -67,6 +67,7 @@
 - [blackbox Screenshot to Code](https://www.blackbox.ai/screenshot)
 - [CopyCoder](https://copycoder.ai/) Create powerful prompts for Cursor, Bolt, v0 & more..
 - [Cline](https://github.com/cline/cline) 开源的AI编程助手插件，可配置三方模型代理
+- [web.lmarena.ai](https://web.lmarena.ai/) WebDev 在线竞技，自动实现UI代码并生成预览
 
 **国产**
 
