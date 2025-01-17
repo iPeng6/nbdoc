@@ -105,7 +105,15 @@
 
 ## Agent & workflow
 
+- [ComfyUI](https://github.com/All-Hands-AI/OpenHands)
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 - [browser-use](https://github.com/browser-use/browser-use)
 - [Coze](https://www.coze.cn/)
 - [Dify](https://dify.ai/)
+
+## prompt 提示词
+
+- https://github.com/f/awesome-chatgpt-prompts
+- https://github.com/langgptai/LangGPT
+- https://github.com/linexjlin/GPTs
+- https://api-docs.deepseek.com/zh-cn/prompt-library/
