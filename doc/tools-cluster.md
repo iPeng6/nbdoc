@@ -11,10 +11,12 @@
 - <img src="https://favicon.im/favicon.im" alt="favicon.im favicon" width="20" style="vertical-align: sub;" /> [favicon](https://favicon.im/) 提取任何网站 logo
 - <img src="https://favicon.im/icons8.com" alt="icons8.com favicon" width="20" style="vertical-align: sub;" /> [icons8](https://icons8.com/icons) `1,374,600+` 个相互匹配的免费图标
 - <img src="https://favicon.im/svglogo.top" alt="svglogo.top favicon" width="20" style="vertical-align: sub;" /> [SVG-LOGO](https://svglogo.top/) 国产 logo，如国内企业、大学校徽、国内的工具产品、社交媒体
+- https://pngfree.ai/ 免费的百万级 PNG 图片库。
 
 ## 免费API
 
 - <img src="https://favicon.im/www.freepublicapis.com" alt="www.freepublicapis.com favicon" width="20" style="vertical-align: sub;" /> [Free Public APIs](https://www.freepublicapis.com/)
+
 
 ## 压缩
 
