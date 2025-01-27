@@ -35,10 +35,13 @@ async function markdownToRSS(markdownContent: string, outputFile: string) {
     const descriptionHTML = markdown.render(descriptionMarkdown); // 转换为 HTML
 
     // 提取发布日期
-    const dateMatch = title.match(/\d{4}年\d{2}月\d{2}日/);
+    const dateMatch = title.match(/\d{4} 年 \d{2} 月 \d{2} 日/);
     const pubDate = dateMatch
       ? new Date(
-          dateMatch[0].replace(/年|月/g, "-").replace("日", ""),
+          dateMatch[0]
+            .replace(/年|月/g, "-")
+            .replace("日", "")
+            .replace(/ /g, ""),
         ).toUTCString()
       : new Date().toUTCString();
     const guid = title;
